@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be0e6be1-2deb-4abf-8208-9044b9d3ae6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +18,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="1659">
               <caret line="439" column="46" selection-start-line="439" selection-start-column="46" selection-end-line="439" selection-end-column="46" />
             </state>
           </provider>
@@ -57,7 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,6 +67,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,12 +100,14 @@
       <updated>1550671005373</updated>
       <workItem from="1550671007866" duration="621000" />
       <workItem from="1550740249634" duration="2494000" />
-      <workItem from="1550762704480" duration="1790000" />
+      <workItem from="1550762704480" duration="1901000" />
+      <workItem from="1550777554405" duration="10000" />
+      <workItem from="1550995045986" duration="101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4905000" />
+    <option name="totallyTimeSpent" value="5127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -135,17 +136,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="439" column="46" selection-start-line="439" selection-start-column="46" selection-end-line="439" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="439" column="46" selection-start-line="439" selection-start-column="46" selection-end-line="439" selection-end-column="46" />
         </state>
       </provider>
     </entry>
