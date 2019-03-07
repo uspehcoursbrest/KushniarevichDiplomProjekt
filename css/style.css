@@ -27,6 +27,50 @@ ul {
 header .backImg {
     width: 1920px;
     height: 995px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.investPlan {
+    width: 1920px;
+    height: 1120px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aboutUs {
+    background-color: #eaeff9;
+}
+.videoPage {
+    width: 1920px;
+    height: 1320px;
+}
+.statistics {
+    width: 1920px;
+    height: 680px;
+}
+.content .users {
+    background-color: #eaeff9;
+}
+.content .referral {
+    width: 1920px;
+    height: 775px;
+
+}
+.content .news {
+    width: 1920px;
+    height: 900px;
+}
+.content .partners {
+    width: 1920px;
+    height: 290px;
+    background-color: #91a8ce;
+}
+footer {
+    width: 1920px;
+    height: 550px;
 }
 .logoText {
     font-size: 37px;
@@ -490,5 +534,8 @@ footer .copyright p {
     line-height: 50px;
     font-weight: bold;
     color: #2f7bde;
+}
+.navigation {
+    background-color: #00256b;
 }
 
