@@ -23,3 +23,472 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+header .backImg {
+    width: 1920px;
+    height: 995px;
+}
+.logoText {
+    font-size: 37px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.logoText2 {
+    font-size: 13px;
+    line-height: 84px;
+    color: #ffffff;
+}
+header .time>span {
+    font-size: 35px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+}
+header .data span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+}
+header .year span {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+header .register .icon-12 {
+    font-size: 13px;
+    line-height: 84px;
+    color: #89b4f4;
+}
+header .register .icon-13 {
+    font-size: 13px;
+    line-height: 84px;
+    color: #89b4f4;
+}
+header .register a {
+    font-size: 13px;
+    line-height: 84px;
+    color: #ffffff;
+}
+.control a {
+    font-size: 15px;
+    line-height: 84px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+.content .home .socBlock span {
+    font-size: 19px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #2f7bde;
+}
+.captionWhite1 {
+    font-size: 133px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.captionWhite1 span {
+    font-size: 70px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.infoBlock p {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #96c2ff;
+}
+.btnRed {
+    font-size: 13px;
+    line-height: 37px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    width: 265px;
+    background-color: #e0186c;
+    text-decoration: none;
+    border: none;
+}
+.right h3 {
+    font-size: 50px;
+    line-height: 84px;
+    color: #d9e1f4;
+}
+.infoCost .styleCost  {
+    font-size: 30px;
+    color: #012c7a;
+}
+.infoCost .btc {
+    font-size: 16px;
+    line-height: 33px;
+    color: #012c7a;
+}
+.infoCost .sum {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #012c7a;
+}
+.infoCost .proc {
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #4194ff;
+}
+.icon-21 {
+    font-size: 13px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #4194ff;
+}
+.infoCompany .link a {
+    font-size: 16px;
+    line-height: 110px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0349c6;
+}
+.moreInfo a {
+    font-size: 16px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 200px;
+    background-color: #2f7bde;
+    text-decoration: none;
+}
+.captionBlue {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #0349c6;
+}
+.text1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #012c7a;
+}
+.text2 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+}
+
+.investPlan .plans .plan {
+    font-size: 20px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #0349c6;
+}
+.investPlan .plans .daily {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #e0186c;
+}
+.investPlan .plans .days {
+    font-size: 13px;
+    line-height: 24px;
+    color: #e0186c;
+}
+.investPlan .plans a {
+    text-decoration: none;
+}
+.captionWhite {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.royalPlan .part1 .a1 {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #96c2ff;
+}
+.royalPlan .part1 .a2 {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.royalPlan .profit .a3 {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.royalPlan .profit .a4 {
+    font-size: 27px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #2b7fed;
+}
+.royalPlan .profit .a5 {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #96c2ff;
+}
+.royalPlan .profit .a6 {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: bold;
+    color: #e0186c;
+}
+.royalPlan .profit .a7 {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: bold;
+    color: #2b7fed;
+}
+.calculator label {
+    font-size: 15px;
+    line-height: 84px;
+    color: #96c2ff;
+}
+.investPlan .summ span {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.left h3 {
+    font-size: 50px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #d9e1f4;
+}
+.statList .a1 {
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #061046;
+}
+.statList .a2 {
+    font-size: 45px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #0349c6;
+}
+.statList .a3 {
+    font-size: 45px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #4194ff;
+}
+.statList .a4 {
+    font-size: 45px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #de1c6e;
+}
+.statList .icon-20 {
+    color: #1153c9;
+}
+#icon20Blue {
+    color: #4194ff;
+}
+#icon20Red {
+    color: #de1c6e;
+}
+.usersBlock .user span:nth-child(1) {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #061046;
+}
+.usersBlock .user span:nth-child(2) {
+    font-size: 14px;
+    line-height: 50px;
+    color: #91a8ce;
+}
+.usersBlock .user .user1 span:nth-child(4) {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #4194ff;
+}
+.usersBlock .user .user2 span:nth-child(4) {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #e0186c;
+}
+.icon-22 {
+    color: #de1c6e;
+}
+.referral .info p {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.referral .rate p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #70aeff;
+}
+.referral .rate span {
+    font-size: 120px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #70aeff;
+}
+.news h3 a {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #061046;
+    text-decoration: none;
+}
+.icon-23 {
+    color: #e0186c;
+}
+.news .newsBlock .news span:nth-child(3) {
+    font-size: 13px;
+    line-height: 84px;
+    color: #739cdd;
+}
+.news p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+}
+footer .contact a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+footer .contact span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #96c2ff;
+}
+footer .copyright p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #96c2ff;
+}
+.navi [class*="icon"]  {
+    color: #89b4f4;
+}
+.navi a {
+    font-size: 14px;
+    line-height: 120px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation .copyright span {
+    font-size: 13px;
+    line-height: 30px;
+    color: #96c2ff;
+}
+.userBlock .user .infoUser  span:nth-child(1) {
+    font-size: 14px;
+    line-height: 18px;
+    color: #012c7a;
+}
+.userBlock .user .infoUser  span:nth-child(2) {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #012c7a;
+}
+.userBlock .deposit .btnBlue {
+    font-size: 16px;
+    line-height: 84px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    width: 240px;
+    background-color: #003ead;
+    text-decoration: none;
+    border: none;
+}
+.icon-33 {
+    color: #de1c6e;
+}
+.deposit .balance span:nth-child(1) {
+    font-size: 12px;
+    line-height: 30px;
+    color: #0349c6;
+}
+.deposit .balance span:nth-child(2) {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #0349c6;
+}
+.cabHeader .infoCost [class*="icon"] {
+    font-size: 30px;
+    color: #012c7a;
+}
+.cabHeader .infoCost .cost .sum span:nth-child(odd) {
+     font-size: 14px;
+     line-height: 18px;
+     color: #012c7a;
+ }
+.cabHeader .infoCost .cost .sum span:nth-child(2) {
+     font-size: 16px;
+     line-height: 18px;
+     font-weight: bold;
+     color: #2f7bde;
+ }
+.cabHeader .infoCost .cost .sum span:nth-child(4) {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #de1c6e;
+}
+.rightBlock .content [class*="icon"] {
+    color: #de1c6e;
+    font-size: 40px;
+}
+.blockTitle span:nth-child(1) {
+    font-size: 12px;
+    line-height: 30px;
+    color: #0349c6;
+}
+.blockTitle span:nth-child(2) {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #0349c6;
+}
+.rightBlock .content  {
+    background-color: #d6dff2;
+}
+.rightBlock .content .referral  {
+    background-color: #ffffff;
+}
+.upline .user span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+    font-weight: bold;
+}
+.upline .user a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #012c7a;
+    text-decoration: none;
+}
+.rightBlock .content .text .summ span:nth-child(1) {
+    font-size: 16px;
+    line-height: 50px;
+    color: #012c7a;
+}
+.rightBlock .content .text .summ span:nth-child(2) {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #2f7bde;
+}
+
