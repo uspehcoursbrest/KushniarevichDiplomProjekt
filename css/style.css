@@ -82,6 +82,9 @@ header .topLine .time{
     width: 320px;
     float: left;
 }
+header .topLine .time span {
+    float: left;
+}
 .control a {
     font-size: 15px;
     line-height: 84px;
@@ -403,8 +406,18 @@ footer .copyright p {
     line-height: 30px;
     color: #96c2ff;
 }
-footer .contact div {
+
+footer .contact .leftBlock div {
     float: left;
+}
+footer .contact .logo  {
+    float: left;
+}
+footer .contact .rightBlock div {
+    float: left;
+}
+footer .contact {
+    display: block;
 }
 .navi [class*="icon"]  {
     color: #89b4f4;
