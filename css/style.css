@@ -23,6 +23,10 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.logo img {
+    width: 55px;
+    height: 50px;
+}
 
 .logoText {
     font-size: 37px;
@@ -33,8 +37,11 @@ ul {
 .logoText2 {
     font-size: 13px;
     line-height: 84px;
+    letter-spacing: 0.33em;
     color: #ffffff;
 }
+
+
 header .time>span {
     font-size: 35px;
     line-height: 84px;
@@ -67,6 +74,14 @@ header .register a {
     line-height: 84px;
     color: #ffffff;
 }
+header .topLIne  .logo {
+    width: 225px;
+    float: left;
+}
+header .topLine .time{
+    width: 320px;
+    float: left;
+}
 .control a {
     font-size: 15px;
     line-height: 84px;
@@ -79,6 +94,10 @@ header .register a {
     line-height: 33px;
     font-weight: bold;
     color: #2f7bde;
+}
+.control li {
+    display: inline-block;
+    margin-right: 70px;
 }
 .captionWhite1 {
     font-size: 133px;
@@ -174,6 +193,10 @@ header .register a {
     line-height: 30px;
     color: #012c7a;
 }
+.aboutUs .infoCompany a {
+    width: 150px;
+    float: left;
+}
 
 .investPlan .plans .plan {
     font-size: 20px;
@@ -225,6 +248,9 @@ header .register a {
     font-weight: bold;
     color: #2b7fed;
 }
+.profit .part2 span:nth-child(4) {
+    color: #ffffff;
+}
 .royalPlan .profit .a5 {
     font-size: 15px;
     line-height: 33px;
@@ -242,6 +268,11 @@ header .register a {
     line-height: 90px;
     font-weight: bold;
     color: #2b7fed;
+}
+.royalPlan .profit div {
+    display: inline-block;
+    margin-right: 60px;
+
 }
 .calculator label {
     font-size: 15px;
@@ -372,6 +403,9 @@ footer .copyright p {
     line-height: 30px;
     color: #96c2ff;
 }
+footer .contact div {
+    float: left;
+}
 .navi [class*="icon"]  {
     color: #89b4f4;
 }
@@ -397,7 +431,7 @@ footer .copyright p {
     font-weight: bold;
     color: #012c7a;
 }
-.userBlock .deposit .btnBlue {
+.btnBlue {
     font-size: 16px;
     line-height: 84px;
     font-weight: bold;
