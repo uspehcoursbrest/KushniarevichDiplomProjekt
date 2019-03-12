@@ -23,67 +23,112 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-.logo img {
+
+.bodyWrap {
+    overflow: hidden;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+header .backImg {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 987px;
+    z-index: -1;
+}
+
+header .time>span {
+    font-size: 35px;
+    line-height: 51px;
+    font-weight: bold;
+    color: #ffffff;
+}
+header .time [class*="icon"] {
+    font-size: 22px;
+}
+header .time .date {
+    display: inline-block;
+}
+header .date span:first-child {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+}
+header .date span:last-child {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+header .register {
+    width: 240px;
+    float: right;
+}
+header .time {
+    width: 295px;
+    float: right;
+}
+
+header .register li {
+    display: inline-block;
+}
+
+header .register [class*="icon"] {
+    font-size: 13px;
+    line-height: 50px;
+    color: #89b4f4;
+}
+header .register a {
+    font-size: 13px;
+    line-height: 50px;
+    color: #ffffff;
+}
+header .logo {
+    position: relative;
+    padding-left: 65px;
+    width: 225px;
+    float: left;
+}
+header .logo img {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -25px;
     width: 55px;
     height: 50px;
 }
 
 .logoText {
     font-size: 37px;
-    line-height: 84px;
+    /*line-height: 84px;*/
     font-weight: bold;
     color: #ffffff;
 }
 .logoText2 {
     font-size: 13px;
-    line-height: 84px;
+    /*line-height: 84px;*/
     letter-spacing: 0.33em;
     color: #ffffff;
 }
-
-
-header .time>span {
-    font-size: 35px;
-    line-height: 84px;
-    font-weight: bold;
-    color: #ffffff;
-}
-header .data span {
-    font-size: 12px;
-    line-height: 16px;
-    color: #ffffff;
-}
-header .year span {
-    font-size: 15px;
-    line-height: 16px;
-    font-weight: 500;
-    color: #ffffff;
-}
-header .register .icon-12 {
-    font-size: 13px;
-    line-height: 84px;
-    color: #89b4f4;
-}
-header .register .icon-13 {
-    font-size: 13px;
-    line-height: 84px;
-    color: #89b4f4;
-}
-header .register a {
-    font-size: 13px;
-    line-height: 84px;
-    color: #ffffff;
-}
-header .topLIne  .logo {
-    width: 225px;
-    float: left;
+header .logo .txt span {
+    display: block;
 }
 header .topLine .time{
     width: 320px;
-    float: left;
 }
 header .topLine .time span {
-    float: left;
 }
 .control a {
     font-size: 15px;
@@ -113,6 +158,14 @@ header .topLine .time span {
     line-height: 84px;
     font-weight: bold;
     color: #ffffff;
+}
+.infoCompany .left {
+    width: 425px;
+    float: left;
+}
+.infoCompany .right {
+    width: calc(100% - 425px);
+    float: right;
 }
 .infoBlock p {
     font-size: 20px;
@@ -172,7 +225,7 @@ header .topLine .time span {
 }
 .moreInfo a {
     font-size: 16px;
-    line-height: 84px;
+    line-height: 53px;
     font-weight: bold;
     color: #ffffff;
     width: 200px;
@@ -196,10 +249,6 @@ header .topLine .time span {
     line-height: 30px;
     color: #012c7a;
 }
-.aboutUs .infoCompany a {
-    width: 150px;
-    float: left;
-}
 
 .investPlan .plans .plan {
     font-size: 20px;
@@ -220,6 +269,9 @@ header .topLine .time span {
 }
 .investPlan .plans a {
     text-decoration: none;
+}
+.investPlan .plans .text span {
+    display: block;
 }
 .captionWhite {
     font-size: 50px;
@@ -327,6 +379,19 @@ header .topLine .time span {
 #icon20Red {
     color: #de1c6e;
 }
+
+.usersBlock .user {
+    width: 50%;
+    float: left;
+}
+
+.users .moreInfo {
+    margin: 0px auto;
+    width: 140px;
+    text-align: center;
+    text-align: center;
+}
+
 .usersBlock .user span:nth-child(1) {
     font-size: 16px;
     line-height: 50px;
@@ -407,15 +472,15 @@ footer .copyright p {
     color: #96c2ff;
 }
 
-footer .contact .leftBlock div {
-    float: left;
-}
-footer .contact .logo  {
-    float: left;
-}
-footer .contact .rightBlock div {
-    float: left;
-}
+/*footer .contact .leftBlock div {*/
+    /*float: left;*/
+/*}*/
+/*footer .contact .logo  {*/
+    /*float: left;*/
+/*}*/
+/*footer .contact .rightBlock div {*/
+    /*float: left;*/
+/*}*/
 footer .contact {
     display: block;
 }
