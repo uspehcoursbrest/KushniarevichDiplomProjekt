@@ -109,7 +109,9 @@ header .logo img {
     width: 55px;
     height: 50px;
 }
-
+.content {
+    z-index: 1;
+}
 .logoText {
     font-size: 37px;
     /*line-height: 84px;*/
@@ -273,6 +275,10 @@ header .topLine .time span {
 .investPlan .plans .text span {
     display: block;
 }
+.investPlan .plans li {
+    display: inline-block;
+    padding-left: 20px;
+}
 .captionWhite {
     font-size: 50px;
     line-height: 84px;
@@ -302,6 +308,18 @@ header .topLine .time span {
     line-height: 33px;
     font-weight: bold;
     color: #2b7fed;
+}
+.royalPlan .profit .part1>span {
+    display: block;
+}
+.royalPlan .profit .part2>span {
+    display: block;
+}
+.royalPlan .profit .part3>span {
+    display: block;
+}
+.royalPlan .profit .part4>span {
+    display: block;
 }
 .profit .part2 span:nth-child(4) {
     color: #ffffff;
@@ -333,6 +351,15 @@ header .topLine .time span {
     font-size: 15px;
     line-height: 84px;
     color: #96c2ff;
+}
+.calculator .inputBlock2 {
+    width: 300px;
+    float: left;
+    padding-left: 340px;
+}
+.calculator .selectBlock {
+    width: 300px;
+    float: left;
 }
 .investPlan .summ span {
     font-size: 50px;
@@ -379,7 +406,21 @@ header .topLine .time span {
 #icon20Red {
     color: #de1c6e;
 }
-
+.statistics .statList span {
+    display: block;
+}
+.statistics .statList1 li {
+    display: inline-block;
+}
+.statistics .statList1 {
+    padding-left: 380px;
+}
+.statistics .statList2 li {
+    display: inline-block;
+}
+.statistics .statList2 {
+    padding-left: 580px;
+}
 .usersBlock .user {
     width: 50%;
     float: left;
@@ -417,6 +458,20 @@ header .topLine .time span {
 }
 .icon-22 {
     color: #de1c6e;
+}
+.users .user1 {
+    width: 50%;
+    float: left;
+}
+.users .user2 {
+    width: 50%;
+    float: right;
+}
+.referral .rate li {
+    display: inline-block;
+}
+.referral .rate li:nth-child(odd){
+    width: 280px;
 }
 .referral .info p {
     font-size: 20px;
