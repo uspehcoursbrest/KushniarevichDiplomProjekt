@@ -350,17 +350,10 @@ header .topLine .time span {
 .calculator label {
     font-size: 15px;
     line-height: 84px;
+    display: block;
     color: #96c2ff;
 }
-.calculator .inputBlock2 {
-    width: 300px;
-    float: left;
-    padding-left: 340px;
-}
-.calculator .selectBlock {
-    width: 300px;
-    float: left;
-}
+
 .investPlan .summ span {
     font-size: 50px;
     line-height: 55px;
@@ -459,14 +452,14 @@ header .topLine .time span {
 .icon-22 {
     color: #de1c6e;
 }
-.users .user1 {
-    width: 50%;
-    float: left;
-}
-.users .user2 {
-    width: 50%;
-    float: right;
-}
+/*.users .user1 {*/
+    /*width: 50%;*/
+    /*float: left;*/
+/*}*/
+/*.users .user2 {*/
+    /*width: 50%;*/
+    /*float: right;*/
+/*}*/
 .referral .rate li {
     display: inline-block;
 }
