@@ -275,15 +275,41 @@ header .topLine .time span {
 .investPlan .plans .text span {
     display: block;
 }
+.investPlan .plans {
+    width: 100%;
+}
 .investPlan .plans li {
-    display: inline-block;
+    float: left;
     padding-left: 20px;
+    width: 33.3333%;
+    position: relative;
+}
+.investPlan .plans li [class*="icon"] {
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: -38px;
+}
+.content .investPlan .backImg {
+    position: absolute;
+    top: -182px;
+    z-index: -1;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 1122px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .captionWhite {
     font-size: 50px;
     line-height: 84px;
     font-weight: bold;
     color: #ffffff;
+}
+.royalPlan .profit {
+    padding-left: 65px;
 }
 .royalPlan .part1 .a1 {
     font-size: 15px;
@@ -417,6 +443,18 @@ header .topLine .time span {
 .usersBlock .user {
     width: 50%;
     float: left;
+}
+.usersBlock .user .user1 {
+    display: table;
+    width: 100%;
+}
+.usersBlock .user .user1 li {
+    display: table-row;
+    height: 55px;
+}
+.usersBlock .user .user1 li span {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .users .moreInfo {
