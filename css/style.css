@@ -38,6 +38,10 @@ header {
     position: relative;
     z-index: 1;
 }
+.content .home {
+    position: relative;
+    z-index: 1;
+}
 header .backImg {
     position: absolute;
     top: 0px;
@@ -75,10 +79,15 @@ header .date span:last-child {
 header .register {
     width: 240px;
     float: right;
+    margin-top: 15px;
 }
 header .time {
     width: 295px;
     float: right;
+    margin-top: 25px;
+}
+header .logo {
+    margin-top: 25px;
 }
 
 header .register li {
@@ -130,8 +139,7 @@ header .logo .txt span {
 header .topLine .time{
     width: 320px;
 }
-header .topLine .time span {
-}
+
 .control a {
     font-size: 15px;
     line-height: 84px;
@@ -148,6 +156,7 @@ header .topLine .time span {
 .control li {
     display: inline-block;
     margin-right: 70px;
+    margin-top: 40px;
 }
 .captionWhite1 {
     font-size: 133px;
@@ -155,6 +164,10 @@ header .topLine .time span {
     font-weight: bold;
     color: #ffffff;
 }
+.home .infoBlock {
+    margin-top: 70px;
+}
+
 .captionWhite1 span {
     font-size: 70px;
     line-height: 84px;
@@ -174,6 +187,7 @@ header .topLine .time span {
     line-height: 33px;
     font-weight: 300;
     color: #96c2ff;
+    margin-top: 40px;
 }
 .btnRed {
     font-size: 13px;
@@ -181,15 +195,35 @@ header .topLine .time span {
     font-weight: bold;
     text-align: center;
     color: #ffffff;
-    width: 265px;
+    width: 230px;
+    height: 65px;
     background-color: #e0186c;
     text-decoration: none;
     border: none;
+    margin-top: 80px;
 }
 .right h3 {
     font-size: 50px;
     line-height: 84px;
     color: #d9e1f4;
+}
+.infoCost {
+    margin-left: 250px;
+    margin-top: 335px;
+}
+.infoCost .infoCost span {
+    display: block;
+}
+.infoCost .infoCost li {
+    float: left;
+    position: relative;
+    margin-right: 100px;
+}
+.infoCost li div [class*="icon"] {
+    position: absolute;
+    font-size: 40px;
+    top: 30px;
+    left: -50px;
 }
 .infoCost .styleCost  {
     font-size: 30px;
@@ -218,6 +252,17 @@ header .topLine .time span {
     font-weight: bold;
     color: #4194ff;
 }
+/*БЛОК ABOUTUS*/
+.aboutUs {
+    height: 1072px;
+    width: 1920px;
+    background-color: #eaeff9;
+    position: relative;
+    z-index: -1;
+}
+.infoCompany {
+    margin-top: 150px;
+}
 .infoCompany .link a {
     font-size: 16px;
     line-height: 110px;
@@ -233,6 +278,7 @@ header .topLine .time span {
     width: 200px;
     background-color: #2f7bde;
     text-decoration: none;
+    border: none;
 }
 .captionBlue {
     font-size: 50px;
@@ -276,7 +322,8 @@ header .topLine .time span {
     display: block;
 }
 .investPlan .plans {
-    width: 100%;
+    width: 1075px;
+    padding-left: 100px;
 }
 .investPlan .plans li {
     float: left;
@@ -285,20 +332,24 @@ header .topLine .time span {
     position: relative;
 }
 .investPlan .plans li [class*="icon"] {
-    font-size: 50px;
+    font-size: 45px;
     display: block;
     position: absolute;
     top: 80px;
     left: -38px;
 }
+.content .investPlan {
+    position: relative;
+    z-index: 1;
+}
 .content .investPlan .backImg {
     position: absolute;
-    top: -182px;
     z-index: -1;
     left: 50%;
     margin-left: -960px;
     width: 1920px;
     height: 1122px;
+    top: -180px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -307,9 +358,11 @@ header .topLine .time span {
     line-height: 84px;
     font-weight: bold;
     color: #ffffff;
+    padding-left: 445px;
 }
 .royalPlan .profit {
     padding-left: 65px;
+    padding-top: 110px;
 }
 .royalPlan .part1 .a1 {
     font-size: 15px;
@@ -385,12 +438,64 @@ header .topLine .time span {
     line-height: 55px;
     font-weight: bold;
     color: #ffffff;
+    margin-left: 480px;
+}
+.content .investPlan .royalPlan {
+    position: relative;
+}
+.content .investPlan .royalPlan .backImg {
+    position: absolute;
+    width: 1200px;
+    height: 210px;
+    top: 310px;
+    left: 900px;
+}
+.investPlan .valueRangeBlock {
+    margin-left: 430px;
+
+}
+.calculator .calc {
+    margin-left: 290px;
+}
+.calculator .calc .inputBlock2 {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+
+}
+.royalPlan .btnRed {
+    margin: 0px auto;
 }
 .left h3 {
     font-size: 50px;
     line-height: 84px;
     font-weight: bold;
     color: #d9e1f4;
+}
+.videoBlock {
+    position: relative;
+    z-index: 1;
+    color: #91a8ce;
+    width: 1920px;
+    height: 500px;
+}
+.videoBlock .backImg {
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.statistics {
+    position: relative;
+    z-index: 1;
+}
+.statistics .backImg {
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+    height: 300px;
 }
 .statList .a1 {
     font-size: 25px;
@@ -430,15 +535,23 @@ header .topLine .time span {
 }
 .statistics .statList1 li {
     display: inline-block;
+    margin-left: 80px;
 }
 .statistics .statList1 {
-    padding-left: 380px;
+    padding-left: 15px;
 }
 .statistics .statList2 li {
     display: inline-block;
+    margin-left: 80px;
 }
 .statistics .statList2 {
-    padding-left: 580px;
+    padding-left: 515px;
+    margin-top: 40px;
+}
+.users {
+    background-color: #eaeff9;
+    width: 1920px;
+    height: 930px;
 }
 .usersBlock .user {
     width: 50%;
@@ -454,13 +567,13 @@ header .topLine .time span {
 }
 .usersBlock .user .user1 li span {
     display: table-cell;
+    text-align: center;
     vertical-align: middle;
 }
 
 .users .moreInfo {
     margin: 0px auto;
-    width: 140px;
-    text-align: center;
+    width: 190px;
     text-align: center;
 }
 
@@ -490,20 +603,20 @@ header .topLine .time span {
 .icon-22 {
     color: #de1c6e;
 }
-/*.users .user1 {*/
-    /*width: 50%;*/
-    /*float: left;*/
-/*}*/
-/*.users .user2 {*/
-    /*width: 50%;*/
-    /*float: right;*/
-/*}*/
-.referral .rate li {
-    display: inline-block;
+
+.referral {
+    position: relative;
+    z-index: 1;
 }
-.referral .rate li:nth-child(odd){
-    width: 280px;
+.referral .backImg {
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+    height: 775px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .referral .info p {
     font-size: 20px;
     line-height: 33px;
@@ -520,6 +633,13 @@ header .topLine .time span {
     line-height: 84px;
     font-weight: bold;
     color: #70aeff;
+}
+.news .newsBlock {
+    display: flex;
+    justify-content: center;
+}
+.news .newsBlock div {
+    margin-right: 100px;
 }
 .news h3 a {
     font-size: 30px;
@@ -541,13 +661,60 @@ header .topLine .time span {
     line-height: 30px;
     color: #012c7a;
 }
+.partners {
+    background-color: #eaeff9;
+}
+.partners .logo .logo li {
+    display: table-cell;
+    height: 180px;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact .leftFooter span {
+    display: block;
+}
+.contact .rightFooter span{
+    display: block;
+}
+footer .contact>div {
+    display: table-cell;
+    width: 1920px;
+    vertical-align: middle;
+}
+footer .leftFooter {
+    text-align: left;
+}
+footer .rightFooter {
+    text-align: right;
+}
+footer .contact .logo .txt span {
+    display: block;
+}
+footer .contact .logo .txt {
+    margin-top: 60px;
+}
+footer .logo {
+    text-align: center;
+    position: relative;
+}
+footer .logo img {
+    position: absolute;
+    top: 15px;
+    right: 150px;
+}
+
 footer .contact a {
     font-size: 16px;
     line-height: 30px;
     color: #ffffff;
     text-decoration: none;
 }
-footer .contact span {
+footer .contact .leftFooter span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #96c2ff;
+}
+footer .contact .rightFooter span {
     font-size: 16px;
     line-height: 30px;
     color: #96c2ff;
@@ -556,19 +723,21 @@ footer .copyright p {
     font-size: 15px;
     line-height: 30px;
     color: #96c2ff;
+    padding-top: 55px;
 }
 
-/*footer .contact .leftBlock div {*/
-    /*float: left;*/
-/*}*/
-/*footer .contact .logo  {*/
-    /*float: left;*/
-/*}*/
-/*footer .contact .rightBlock div {*/
-    /*float: left;*/
-/*}*/
 footer .contact {
     display: block;
+}
+/*ВТОРАЯ СТРАНИЦА ДИПЛОМНОГО ПРОЕКТА*/
+.leftBlock {
+    float: left;
+    width: 205px;
+    height: 1200px;
+}
+.rightBlock {
+    float: right;
+    width: calc(100% - 205px);
 }
 .navi [class*="icon"]  {
     color: #89b4f4;
@@ -583,6 +752,10 @@ footer .contact {
     font-size: 13px;
     line-height: 30px;
     color: #96c2ff;
+}
+
+.rightBlock .cabHeader .upBlock .control a {
+    display: block;
 }
 .userBlock .user .infoUser  span:nth-child(1) {
     font-size: 14px;
@@ -608,10 +781,12 @@ footer .contact {
 }
 .icon-33 {
     color: #de1c6e;
+    font-size: 35px;
 }
 .deposit .balance span:nth-child(1) {
     font-size: 12px;
-    line-height: 30px;
+    line-height: 10px;
+    letter-spacing: 0.3em;
     color: #0349c6;
 }
 .deposit .balance span:nth-child(2) {
@@ -641,13 +816,42 @@ footer .contact {
     font-weight: bold;
     color: #de1c6e;
 }
-.rightBlock .content [class*="icon"] {
+.cost li {
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+}
+.infoCost .cost [class*="icon"] {
+    position: absolute;
+    font-size: 30px;
+    left: -55px;
+    bottom: 20px;
+}
+.infoCost .cost .sum span {
+    display: block;
+}
+.rightBlock .cabHeader .userBlock .user .infoUser li span {
+    display: block;
+}
+.rightBlock .cabHeader .userBlock .user .infoUser li {
+    float: left;
+    margin-left: 40px;
+}
+
+.rightBlock .cabHeader .deposit .balance span {
+    display: block;
+}
+.rightBlock .cabHeader .deposit a {
+    float: left;
+}
+.rightBlock .content2 [class*="icon"] {
     color: #de1c6e;
     font-size: 40px;
 }
 .blockTitle span:nth-child(1) {
     font-size: 12px;
-    line-height: 30px;
+    line-height: 10px;
+    letter-spacing: 0.3em;
     color: #0349c6;
 }
 .blockTitle span:nth-child(2) {
@@ -656,30 +860,92 @@ footer .contact {
     font-weight: bold;
     color: #0349c6;
 }
-.rightBlock .content  {
+.rightBlock .content2  {
     background-color: #d6dff2;
 }
-.rightBlock .content .referral  {
+.content2 .referral2 {
+    width: 680px;
+    height: 245px;
     background-color: #ffffff;
+    margin-left: 155px;
+}
+.content2 .blockTitle span {
+    display: block;
+    margin-left: 20px;
+}
+.content2 .title div {
+    display: inline-block;
+    margin-top: 44px;
+}
+.content2 .title {
+    margin-left: 35px;
+}
+.content2 .referral2 .inputBlock1 {
+    margin-top: 40px;
+    margin-left: 105px;
+}
+.content2 .upline {
+    width: 680px;
+    height: 245px;
+    background-color: #ffffff;
+    margin-left: 40px;
 }
 .upline .user span {
     font-size: 16px;
     line-height: 30px;
     color: #012c7a;
     font-weight: bold;
+    margin-left: 20px;
 }
 .upline .user a {
     font-size: 16px;
     line-height: 30px;
     color: #012c7a;
     text-decoration: none;
+    margin-left: 20px;
 }
-.rightBlock .content .text .summ span:nth-child(1) {
+.upline .nameUser a  {
+    display: block;
+}
+.upline .user div {
+    display: inline-block;
+}
+.upline .user {
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.content2 .text .summ {
+    display: table;
+    width: 470px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 105px;
+}
+.content2 .text .summ li {
+    display: table-row;
+    height: 35px;
+}
+.content2 .text .summ li span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.content2 .invest {
+    width: 680px;
+    height: 245px;
+    background-color: #ffffff;
+    margin-left: 155px;
+}
+.content2 .withdrawal {
+    width: 680px;
+    height: 245px;
+    background-color: #ffffff;
+}
+.rightBlock .content2 .text .summ span:nth-child(1) {
     font-size: 16px;
     line-height: 50px;
     color: #012c7a;
 }
-.rightBlock .content .text .summ span:nth-child(2) {
+.rightBlock .content2 .text .summ span:nth-child(2) {
     font-size: 16px;
     line-height: 50px;
     font-weight: bold;
