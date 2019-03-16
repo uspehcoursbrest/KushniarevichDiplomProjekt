@@ -209,7 +209,6 @@ header .topLine .time{
 }
 .infoCost {
     margin-left: 250px;
-    margin-top: 335px;
 }
 .infoCost .infoCost span {
     display: block;
@@ -472,14 +471,14 @@ header .topLine .time{
     font-weight: bold;
     color: #d9e1f4;
 }
-.videoBlock {
+.videoPage {
     position: relative;
     z-index: 1;
     color: #91a8ce;
     width: 1920px;
     height: 500px;
 }
-.videoBlock .backImg {
+.videoPage .backImg {
     position: absolute;
     z-index: -1;
     width: 1920px;
