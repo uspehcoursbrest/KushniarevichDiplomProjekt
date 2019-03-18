@@ -33,6 +33,10 @@ ul {
     display: block;
     clear: both;
 }
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
 
 header {
     position: relative;
@@ -44,17 +48,18 @@ header {
 }
 header .backImg {
     position: absolute;
-    top: 0px;
+    z-index: -1;
     left: 50%;
     margin-left: -960px;
     width: 1920px;
-    height: 987px;
-    z-index: -1;
+    height: 985px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header .time>span {
     font-size: 35px;
-    line-height: 51px;
+    line-height: 35px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -67,27 +72,27 @@ header .time .date {
 header .date span:first-child {
     display: block;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 12px;
     color: #ffffff;
 }
 header .date span:last-child {
     font-size: 15px;
-    line-height: 16px;
+    line-height: 15px;
     font-weight: 500;
     color: #ffffff;
 }
 header .register {
     width: 240px;
     float: right;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 header .time {
     width: 295px;
     float: right;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 header .logo {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 
 header .register li {
@@ -96,12 +101,12 @@ header .register li {
 
 header .register [class*="icon"] {
     font-size: 13px;
-    line-height: 50px;
+    line-height: 13px;
     color: #89b4f4;
 }
 header .register a {
     font-size: 13px;
-    line-height: 50px;
+    line-height: 13px;
     color: #ffffff;
 }
 header .logo {
@@ -118,12 +123,23 @@ header .logo img {
     width: 55px;
     height: 50px;
 }
+.invisLink>a {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
 .content {
     z-index: 1;
 }
 .logoText {
     font-size: 37px;
-    /*line-height: 84px;*/
     font-weight: bold;
     color: #ffffff;
 }
@@ -139,40 +155,44 @@ header .logo .txt span {
 header .topLine .time{
     width: 320px;
 }
+header .topLine {
+    padding-top: 51px;
+}
 
 .control a {
     font-size: 15px;
-    line-height: 84px;
+    line-height: 15px;
     font-weight: 500;
     color: #ffffff;
     text-decoration: none;
 }
 .content .home .socBlock span {
     font-size: 19px;
-    line-height: 33px;
+    line-height: 19px;
     font-weight: bold;
     color: #2f7bde;
 }
 .control li {
     display: inline-block;
     margin-right: 70px;
-    margin-top: 40px;
+    margin-top: 75px;
 }
 .captionWhite1 {
     font-size: 133px;
-    line-height: 84px;
+    line-height: 100px;
     font-weight: bold;
     color: #ffffff;
 }
 .home .infoBlock {
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .captionWhite1 span {
     font-size: 70px;
-    line-height: 84px;
+    line-height: 50px;
     font-weight: bold;
     color: #ffffff;
+    margin-top: 35px;
 }
 .infoCompany .left {
     width: 425px;
@@ -187,11 +207,11 @@ header .topLine .time{
     line-height: 33px;
     font-weight: 300;
     color: #96c2ff;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .btnRed {
     font-size: 13px;
-    line-height: 37px;
+    line-height: 13px;
     font-weight: bold;
     text-align: center;
     color: #ffffff;
@@ -200,11 +220,11 @@ header .topLine .time{
     background-color: #e0186c;
     text-decoration: none;
     border: none;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 .right h3 {
     font-size: 50px;
-    line-height: 84px;
+    line-height: 50px;
     color: #d9e1f4;
 }
 .infoCost {
@@ -224,6 +244,7 @@ header .topLine .time{
     top: 30px;
     left: -50px;
 }
+
 .infoCost .styleCost  {
     font-size: 30px;
     color: #012c7a;
@@ -253,14 +274,12 @@ header .topLine .time{
 }
 /*БЛОК ABOUTUS*/
 .aboutUs {
-    height: 1072px;
-    width: 1920px;
     background-color: #eaeff9;
     position: relative;
     z-index: -1;
 }
 .infoCompany {
-    margin-top: 150px;
+    margin-top: 285px;
 }
 .infoCompany .link a {
     font-size: 16px;
@@ -281,7 +300,7 @@ header .topLine .time{
 }
 .captionBlue {
     font-size: 50px;
-    line-height: 84px;
+    line-height: 50px;
     font-weight: bold;
     color: #0349c6;
 }
@@ -290,16 +309,36 @@ header .topLine .time{
     line-height: 30px;
     font-weight: 500;
     color: #012c7a;
+    margin-top: 50px;
 }
 .text2 {
     font-size: 16px;
     line-height: 30px;
     color: #012c7a;
+    margin-top: 50px;
 }
-
+.aboutUs {
+    padding-bottom: 300px;
+}
+/*СТРАНИЦА ИНВЕСТ ПЛАН*/
+.content .investPlan {
+    position: relative;
+    z-index: 2;
+}
+.content .investPlan .backImg {
+    position: absolute;
+    z-index: -2;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 1122px;
+    top: -180px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .investPlan .plans .plan {
     font-size: 20px;
-    line-height: 84px;
+    line-height: 25px;
     font-weight: bold;
     color: #0349c6;
 }
@@ -334,30 +373,25 @@ header .topLine .time{
     font-size: 45px;
     display: block;
     position: absolute;
-    top: 80px;
+    top: 20px;
     left: -38px;
 }
-.content .investPlan {
+.investPlan {
     position: relative;
-    z-index: 1;
 }
-.content .investPlan .backImg {
+.investPlan .plans {
     position: absolute;
-    z-index: -1;
-    left: 50%;
-    margin-left: -960px;
-    width: 1920px;
-    height: 1122px;
-    top: -180px;
-    background-position: center;
-    background-repeat: no-repeat;
+    top: -60px;
 }
 .captionWhite {
     font-size: 50px;
-    line-height: 84px;
+    line-height: 50px;
     font-weight: bold;
     color: #ffffff;
     padding-left: 445px;
+}
+.royalPlan .captionWhite {
+    padding-top: 150px;
 }
 .royalPlan .profit {
     padding-left: 65px;
@@ -446,15 +480,15 @@ header .topLine .time{
     position: absolute;
     width: 1200px;
     height: 210px;
-    top: 310px;
+    top: 280px;
     left: 900px;
 }
 .investPlan .valueRangeBlock {
-    margin-left: 430px;
+    margin-left: 500px;
 
 }
 .calculator .calc {
-    margin-left: 290px;
+    margin: 80px 400px;
 }
 .calculator .calc .inputBlock2 {
     float: left;
@@ -464,6 +498,7 @@ header .topLine .time{
 }
 .royalPlan .btnRed {
     margin: 0px auto;
+
 }
 .left h3 {
     font-size: 50px;
@@ -476,13 +511,16 @@ header .topLine .time{
     z-index: 1;
     color: #91a8ce;
     width: 1920px;
-    height: 500px;
+    height: 1325px;
 }
 .videoPage .backImg {
     position: absolute;
     z-index: -1;
+    left: 50%;
+    margin-left: -960px;
     width: 1920px;
-    height: 500px;
+    height: 1325px;
+    top: -85px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -493,8 +531,12 @@ header .topLine .time{
 .statistics .backImg {
     position: absolute;
     z-index: -1;
+    left: 50%;
+    margin-left: -960px;
     width: 1920px;
-    height: 300px;
+    height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .statList .a1 {
     font-size: 25px;
@@ -538,6 +580,7 @@ header .topLine .time{
 }
 .statistics .statList1 {
     padding-left: 15px;
+    padding-top: 153px;
 }
 .statistics .statList2 li {
     display: inline-block;
@@ -545,8 +588,14 @@ header .topLine .time{
 }
 .statistics .statList2 {
     padding-left: 515px;
-    margin-top: 40px;
+    padding-top: 40px;
 }
+.statList1 .icon-20 {
+    margin-left: 40px;
+}
+.statistics .statList span+span {
+     margin-top:  63px;
+ }
 .users {
     background-color: #eaeff9;
     width: 1920px;
@@ -610,8 +659,10 @@ header .topLine .time{
 .referral .backImg {
     position: absolute;
     z-index: -1;
+    left: 50%;
+    margin-left: -960px;
     width: 1920px;
-    height: 775px;
+    height: 770px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -632,6 +683,23 @@ header .topLine .time{
     line-height: 84px;
     font-weight: bold;
     color: #70aeff;
+}
+.referral .rate li+li{
+    float: right;
+}
+.content .news {
+    position: relative;
+    z-index: 1;
+}
+.content .news .backImg {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .news .newsBlock {
     display: flex;
@@ -674,6 +742,20 @@ header .topLine .time{
 }
 .contact .rightFooter span{
     display: block;
+}
+footer {
+    position: relative;
+    z-index: 1;
+}
+footer .backImg {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 footer .contact>div {
     display: table-cell;
@@ -740,6 +822,10 @@ footer .contact {
 }
 .navi [class*="icon"]  {
     color: #89b4f4;
+    display: block;
+    text-align: center;
+    margin-bottom: -30px;
+    font-size: 20px;
 }
 .navi a {
     font-size: 14px;
@@ -747,14 +833,34 @@ footer .contact {
     text-decoration: none;
     color: #ffffff;
 }
-.navigation .copyright span {
+.navi {
+    padding-top: 25px;
+}
+.navi li {
+    text-align: center;
+}
+.navigation .copyright {
     font-size: 13px;
     line-height: 30px;
     color: #96c2ff;
+    padding-top: 445px;
+    text-align: center;
 }
-
+.rightBlock .cabHeader .upBlock .logo {
+    padding-top: 45px;
+}
 .rightBlock .cabHeader .upBlock .control a {
-    display: block;
+    display: inline-block;
+}
+.rightBlock .cabHeader .upBlock .socBlock {
+    float: right;
+}
+.rightBlock .cabHeader .upBlock .socBlock span {
+    color: #ffffff;
+    text-decoration: none;
+}
+.rightBlock .cabHeader .upBlock {
+    background-color: #00256a;
 }
 .userBlock .user .infoUser  span:nth-child(1) {
     font-size: 14px;
@@ -767,6 +873,7 @@ footer .contact {
     font-weight: bold;
     color: #012c7a;
 }
+
 .btnBlue {
     font-size: 16px;
     line-height: 84px;
@@ -815,6 +922,9 @@ footer .contact {
     font-weight: bold;
     color: #de1c6e;
 }
+.rightBlock .cabHeader .infoCost {
+    background-color: #eaeff9;
+}
 .cost li {
     display: inline-block;
     position: relative;
@@ -829,6 +939,7 @@ footer .contact {
 .infoCost .cost .sum span {
     display: block;
 }
+
 .rightBlock .cabHeader .userBlock .user .infoUser li span {
     display: block;
 }
@@ -840,8 +951,8 @@ footer .contact {
 .rightBlock .cabHeader .deposit .balance span {
     display: block;
 }
-.rightBlock .cabHeader .deposit a {
-    float: left;
+.rightBlock .cabHeader .deposit div {
+    display: inline-block;
 }
 .rightBlock .content2 [class*="icon"] {
     color: #de1c6e;
