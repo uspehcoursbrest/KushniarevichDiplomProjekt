@@ -174,8 +174,10 @@ header .topLine {
 }
 .control li {
     display: inline-block;
-    margin-right: 70px;
     margin-top: 75px;
+}
+.control li+li {
+    margin-left: 74px;
 }
 .captionWhite1 {
     font-size: 133px;
@@ -211,7 +213,7 @@ header .topLine {
 }
 .btnRed {
     font-size: 13px;
-    line-height: 13px;
+    line-height: 60px;
     font-weight: bold;
     text-align: center;
     color: #ffffff;
@@ -220,7 +222,6 @@ header .topLine {
     background-color: #e0186c;
     text-decoration: none;
     border: none;
-    margin-top: 90px;
 }
 .right h3 {
     font-size: 50px;
@@ -535,6 +536,7 @@ header .topLine {
     margin-left: -960px;
     width: 1920px;
     height: 680px;
+    top: -135px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -580,11 +582,12 @@ header .topLine {
 }
 .statistics .statList1 {
     padding-left: 15px;
-    padding-top: 153px;
+    padding-top: 15px;
 }
 .statistics .statList2 li {
     display: inline-block;
     margin-left: 80px;
+    margin-bottom: 90px;
 }
 .statistics .statList2 {
     padding-left: 515px;
@@ -598,8 +601,6 @@ header .topLine {
  }
 .users {
     background-color: #eaeff9;
-    width: 1920px;
-    height: 930px;
 }
 .usersBlock .user {
     width: 50%;
@@ -663,6 +664,7 @@ header .topLine {
     margin-left: -960px;
     width: 1920px;
     height: 770px;
+    top: -70px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -684,8 +686,9 @@ header .topLine {
     font-weight: bold;
     color: #70aeff;
 }
-.referral .rate li+li{
-    float: right;
+.referral .rate li{
+    float: left;
+    margin-left: 40px;
 }
 .content .news {
     position: relative;
@@ -701,13 +704,7 @@ header .topLine {
     background-position: center;
     background-repeat: no-repeat;
 }
-.news .newsBlock {
-    display: flex;
-    justify-content: center;
-}
-.news .newsBlock div {
-    margin-right: 100px;
-}
+
 .news h3 a {
     font-size: 30px;
     line-height: 40px;
@@ -862,6 +859,9 @@ footer .contact {
 .rightBlock .cabHeader .upBlock {
     background-color: #00256a;
 }
+.rightBlock .cabHeader .control li+li {
+    margin-left: 50px;
+}
 .userBlock .user .infoUser  span:nth-child(1) {
     font-size: 14px;
     line-height: 18px;
@@ -873,14 +873,17 @@ footer .contact {
     font-weight: bold;
     color: #012c7a;
 }
-
+.cabHeader .userBlock .user {
+    background-color: #f3f7ff;
+}
 .btnBlue {
     font-size: 16px;
-    line-height: 84px;
+    line-height: 60px;
     font-weight: bold;
     text-align: center;
     color: #ffffff;
     width: 240px;
+    height: 65px;
     background-color: #003ead;
     text-decoration: none;
     border: none;
@@ -931,10 +934,9 @@ footer .contact {
     margin-left: 100px;
 }
 .infoCost .cost [class*="icon"] {
-    position: absolute;
     font-size: 30px;
     left: -55px;
-    bottom: 20px;
+    top: 20px;
 }
 .infoCost .cost .sum span {
     display: block;
@@ -977,7 +979,6 @@ footer .contact {
     width: 680px;
     height: 245px;
     background-color: #ffffff;
-    margin-left: 155px;
 }
 .content2 .blockTitle span {
     display: block;
@@ -998,7 +999,7 @@ footer .contact {
     width: 680px;
     height: 245px;
     background-color: #ffffff;
-    margin-left: 40px;
+
 }
 .upline .user span {
     font-size: 16px;
@@ -1022,14 +1023,13 @@ footer .contact {
 }
 .upline .user {
     margin-top: 40px;
-    margin-left: 110px;
 }
 .content2 .text .summ {
     display: table;
     width: 470px;
     height: 120px;
     margin-top: 15px;
-    margin-left: 105px;
+
 }
 .content2 .text .summ li {
     display: table-row;
@@ -1043,7 +1043,7 @@ footer .contact {
     width: 680px;
     height: 245px;
     background-color: #ffffff;
-    margin-left: 155px;
+
 }
 .content2 .withdrawal {
     width: 680px;
@@ -1061,6 +1061,7 @@ footer .contact {
     font-weight: bold;
     color: #2f7bde;
 }
+
 .navigation {
     background-color: #00256b;
 }
