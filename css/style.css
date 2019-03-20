@@ -174,7 +174,12 @@ header .topLine {
 }
 .control li {
     display: inline-block;
+<<<<<<< HEAD
     margin-top: 75px;
+=======
+    margin-right: 70px;
+    padding-top: 20px;
+>>>>>>> 6a00630ac1f69f48c4e1604a91f4fbcf18eb5b25
 }
 .control li+li {
     margin-left: 74px;
@@ -228,7 +233,7 @@ header .topLine {
     line-height: 50px;
     color: #d9e1f4;
 }
-.infoCost {
+.content .home .infoCost {
     margin-left: 250px;
 }
 .infoCost .infoCost span {
@@ -601,6 +606,13 @@ header .topLine {
  }
 .users {
     background-color: #eaeff9;
+<<<<<<< HEAD
+=======
+    width: 1920px;
+    height: 930px;
+    position: relative;
+    z-index: 1;
+>>>>>>> 6a00630ac1f69f48c4e1604a91f4fbcf18eb5b25
 }
 .usersBlock .user {
     width: 50%;
@@ -667,6 +679,7 @@ header .topLine {
     top: -70px;
     background-position: center;
     background-repeat: no-repeat;
+    top: -70px;
 }
 
 .referral .info p {
@@ -761,6 +774,7 @@ footer .contact>div {
 }
 footer .leftFooter {
     text-align: left;
+    padding-top: 97px;
 }
 footer .rightFooter {
     text-align: right;
@@ -843,7 +857,7 @@ footer .contact {
     padding-top: 445px;
     text-align: center;
 }
-.rightBlock .cabHeader .upBlock .logo {
+.rightBlock .cabHeader .upBlock {
     padding-top: 45px;
 }
 .rightBlock .cabHeader .upBlock .control a {
