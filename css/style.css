@@ -175,7 +175,7 @@ header .topLine {
 .control li {
     display: inline-block;
     margin-right: 70px;
-    margin-top: 75px;
+    padding-top: 20px;
 }
 .captionWhite1 {
     font-size: 133px;
@@ -227,7 +227,7 @@ header .topLine {
     line-height: 50px;
     color: #d9e1f4;
 }
-.infoCost {
+.content .home .infoCost {
     margin-left: 250px;
 }
 .infoCost .infoCost span {
@@ -846,7 +846,7 @@ footer .contact {
     padding-top: 445px;
     text-align: center;
 }
-.rightBlock .cabHeader .upBlock .logo {
+.rightBlock .cabHeader .upBlock {
     padding-top: 45px;
 }
 .rightBlock .cabHeader .upBlock .control a {
