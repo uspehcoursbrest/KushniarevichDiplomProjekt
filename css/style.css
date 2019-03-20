@@ -600,6 +600,8 @@ header .topLine {
     background-color: #eaeff9;
     width: 1920px;
     height: 930px;
+    position: relative;
+    z-index: 1;
 }
 .usersBlock .user {
     width: 50%;
@@ -665,6 +667,7 @@ header .topLine {
     height: 770px;
     background-position: center;
     background-repeat: no-repeat;
+    top: -70px;
 }
 
 .referral .info p {
@@ -764,6 +767,7 @@ footer .contact>div {
 }
 footer .leftFooter {
     text-align: left;
+    padding-top: 97px;
 }
 footer .rightFooter {
     text-align: right;
