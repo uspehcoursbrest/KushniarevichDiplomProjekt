@@ -97,25 +97,23 @@ header .time::after {
     border-bottom: 26px solid transparent;
 }
 header .time .icon-11 {
-    margin-left: -12px;
+    margin-left: -3px;
 }
 header .time>span {
     font-size: 35px;
     line-height: 35px;
     font-weight: bold;
     color: #ffffff;
-    margin-right: 35px;
+    margin-right: 20px;
 }
-header .time span {
 
-}
 header .time .icon-50 {
     position: absolute;
     z-index: 2;
     font-size: 57px;
     color: #1d5cb8;
-    left: -30px;
-    top: 9px;
+    left: -20px;
+    top: 8px;
 
 }
 header .time [class*="icon-11"] {
@@ -378,6 +376,9 @@ header .topLine {
 }
 .infoCost .infoCost span {
     display: block;
+}
+.infoCost .infoCost span+span+span {
+    display: inline-block;
 }
 .infoCost .infoCost li {
     float: left;
