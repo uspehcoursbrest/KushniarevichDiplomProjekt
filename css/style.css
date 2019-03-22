@@ -56,15 +56,62 @@ header .backImg {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+header .time {
+    position: relative;
+    width: 295px;
+    height: 51px;
+    background-color: #2f7bde;
+}
+header .time::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid #1d5cb8;
+    border-top: 25px solid transparent;
+    border-bottom: 26px solid transparent;
+}
+header .time::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid #2f7bde;
+    border-top: 25px solid transparent;
+    border-bottom: 26px solid transparent;
+}
+header .time .icon-11 {
+    margin-left: -12px;
+}
 header .time>span {
     font-size: 35px;
     line-height: 35px;
     font-weight: bold;
     color: #ffffff;
+    margin-right: 35px;
 }
-header .time [class*="icon"] {
+header .time span {
+
+}
+header .time .icon-50 {
+    position: absolute;
+    z-index: 2;
+    font-size: 57px;
+    color: #1d5cb8;
+    left: -30px;
+    top: 9px;
+
+}
+header .time [class*="icon-11"] {
     font-size: 22px;
+    position: relative;
+    z-index: 3;
 }
 header .time .date {
     display: inline-block;
@@ -82,19 +129,42 @@ header .date span:last-child {
     color: #ffffff;
 }
 header .register {
-    width: 240px;
     float: right;
-    /*margin-top: 15px;*/
 }
 header .time {
-    width: 295px;
     float: right;
-    /*margin-top: 25px;*/
+    margin-right: 70px;
 }
-header .logo {
-    /*margin-top: 25px;*/
+header .register {
+    position: relative;
+    width: 240px;
+    height: 51px;
+    background-color: rgba(1, 44, 124, 0.3);
 }
-
+header .register::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid rgba(1, 44, 124, 0.3);
+    border-top: 25px solid transparent;
+    border-bottom: 26px solid transparent;
+}
+header .register::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid rgba(1, 44, 124, 0.3);
+    border-top: 25px solid transparent;
+    border-bottom: 26px solid transparent;
+}
 header .register li {
     display: inline-block;
 }
@@ -145,16 +215,13 @@ header .logo img {
 }
 .logoText2 {
     font-size: 13px;
-    /*line-height: 84px;*/
     letter-spacing: 0.33em;
     color: #ffffff;
 }
 header .logo .txt span {
     display: block;
 }
-header .topLine .time{
-    width: 320px;
-}
+
 header .topLine {
     padding-top: 51px;
 }
@@ -572,10 +639,12 @@ header .topLine {
 .calculator .calc .inputBlock2 input {
      width: 300px;
      height: 34px;
+    border: 1px solid #3168cb;
  }
 .calculator .calc .selectBlock select {
     width: 300px;
     height: 34px;
+    border: 1px solid #3168cb;
 }
 .royalPlan .btnRed {
     margin: 0px auto;
@@ -604,6 +673,10 @@ header .topLine {
     top: -85px;
     background-position: center;
     background-repeat: no-repeat;
+}
+.videoPage img {
+    border: 11px solid #ffffff;
+    margin-top: 115px;
 }
 .statistics {
     position: relative;
@@ -706,12 +779,16 @@ header .topLine {
     vertical-align: middle;
 }
 
-.users .moreInfo {
+.users .btnBlue {
     margin: 0px auto;
     width: 190px;
     text-align: center;
-}
+    margin-top: 60px;
 
+}
+.users .usersBlock {
+    padding-top: 105px;
+}
 .usersBlock .user span:nth-child(1) {
     font-size: 16px;
     line-height: 50px;
@@ -755,12 +832,32 @@ header .topLine {
     background-repeat: no-repeat;
     top: -70px;
 }
-
+.referral .rate {
+    position: relative;
+}
+.referral .rate .styleRate {
+    position: absolute;
+    width: 520px;
+    height: 313px;
+    top: -115px;
+    left: 330px;
+}
+.referral h1 {
+    padding-top: 105px;
+}
 .referral .info p {
     font-size: 20px;
     line-height: 33px;
     font-weight: 300;
     color: #ffffff;
+    text-align: center;
+    padding-top: 68px;
+}
+.referral .rate {
+    margin-top: 140px;
+}
+.referral .btnRed {
+    margin: 147px auto ;
 }
 .referral .rate p {
     font-size: 16px;
@@ -775,8 +872,11 @@ header .topLine {
 }
 .referral .rate li{
     float: left;
-    margin-left: 40px;
 }
+.referral .rate li+li {
+    margin-left: 110px;
+}
+
 .content .news {
     position: relative;
     z-index: 1;
@@ -854,6 +954,7 @@ footer .leftFooter {
 }
 footer .rightFooter {
     text-align: right;
+    padding-top: 97px;
 }
 footer .contact .logo .txt span {
     display: block;
@@ -1043,11 +1144,20 @@ footer .contact {
 .rightBlock .cabHeader .upBlock {
     background-color: #00256a;
 }
-.rightBlock .cabHeader.control li {
+
+
+.control2 a {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+.rightBlock .cabHeader .control2 li {
     display: inline-block;
     padding-top: 20px;
 }
-.rightBlock .cabHeader .control li+li {
+.rightBlock .cabHeader .control2 li {
     margin-left: 50px;
 }
 .userBlock .user .infoUser  span:nth-child(1) {
