@@ -37,6 +37,18 @@ ul {
     position: relative;
     z-index: 1;
 }
+
+[class*="btn"] {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+[class*="btn"]:hover {
+    opacity: 0.7;
+}
+
 /*.videoPage .map {*/
     /*width: 350px;*/
     /*height: 350px;*/
@@ -101,7 +113,7 @@ header .time .icon-11 {
 }
 header .time>span {
     font-size: 35px;
-    line-height: 35px;
+    line-height: 50px;
     font-weight: bold;
     color: #ffffff;
     margin-right: 20px;
@@ -110,10 +122,10 @@ header .time>span {
 header .time .icon-50 {
     position: absolute;
     z-index: 2;
-    font-size: 57px;
+    font-size: 58px;
     color: #1d5cb8;
     left: -20px;
-    top: 8px;
+    top: 1px;
 
 }
 header .time [class*="icon-11"] {
@@ -175,6 +187,7 @@ header .register::after {
 }
 header .register li {
     display: inline-block;
+    margin-right: 40px;
 }
 
 header .register [class*="icon"] {
@@ -184,8 +197,10 @@ header .register [class*="icon"] {
 }
 header .register a {
     font-size: 13px;
-    line-height: 13px;
+    line-height: 46px;
     color: #ffffff;
+    letter-spacing: 0.1em;
+    text-decoration: none;
 }
 header .logo {
     position: relative;
@@ -303,19 +318,23 @@ header .topLine {
     right: 10px;
     top: 25px;
 }
-.btnRed {
-    display: block;
-    position: relative;
+.btnRed a {
     font-size: 16px;
     line-height: 65px;
     font-weight: bold;
     font-family: monda;
-    padding-left: 32px;
+    text-decoration: none;
     color: #ffffff;
-    width: 230px;
+    padding-left: 60px;
+}
+.btnRed {
+    display: block;
+    position: relative;
+
+    width: 260px;
     height: 65px;
     background-color: #e0186c;
-    text-decoration: none;
+
     border: none;
 }
 [class*="btnRed"]::before {
@@ -923,7 +942,10 @@ header .topLine {
     line-height: 30px;
     color: #012c7a;
 }
-
+.partners .logo {
+    display: table;
+    width: 100%;
+}
 .partners .logo .logo li {
     display: table-cell;
     height: 290px;
@@ -1336,7 +1358,7 @@ footer .contact {
     font-size: 67px;
     top: 2px;
     left: -90px;
-    box-shadow: 0px 21px 21px 0px rgba(136, 163, 221, 0.33);
+    filter: drop-shadow(21px 21px 21px rgba(136, 163, 221, 0.33));
 }
 .rightBlock .cabHeader .userBlock .user .infoUser li span {
     display: block;
