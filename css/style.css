@@ -71,6 +71,7 @@ header {
 header .backImg {
     position: absolute;
     z-index: -1;
+    background-color: #eaeff9;
     left: 50%;
     margin-left: -960px;
     width: 1920px;
@@ -116,7 +117,7 @@ header .time>span {
     line-height: 50px;
     font-weight: bold;
     color: #ffffff;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 header .time .icon-50 {
@@ -157,7 +158,7 @@ header .time {
 }
 header .register {
     position: relative;
-    width: 240px;
+    width: 249px;
     height: 51px;
     background-color: rgba(1, 44, 124, 0.3);
 }
@@ -194,6 +195,7 @@ header .register [class*="icon"] {
     font-size: 13px;
     line-height: 13px;
     color: #89b4f4;
+    margin-right: 7px  ;
 }
 header .register a {
     font-size: 13px;
@@ -205,14 +207,14 @@ header .register a {
 header .logo {
     position: relative;
     padding-left: 65px;
-    width: 225px;
+    width: 255px;
     float: left;
 }
 header .logo img {
     position: absolute;
     left: 0px;
     top: 50%;
-    margin-top: -25px;
+    margin-top: -16px;
     width: 55px;
     height: 50px;
 }
@@ -233,11 +235,14 @@ header .logo img {
 }
 .logoText {
     font-size: 37px;
+    font-family: Monda;
     font-weight: bold;
     color: #ffffff;
 }
 .logoText2 {
     font-size: 13px;
+    line-height: 1px;
+    font-family: Monda;
     letter-spacing: 0.33em;
     color: #ffffff;
 }
@@ -264,19 +269,23 @@ header .topLine {
 }
 .control li {
     display: inline-block;
-    padding-top: 80px;
+    padding-top: 60px;
+}
+.control ul {
+    margin-left: 10px;
 }
 .control li+li {
-    margin-left: 74px;
+    margin-left: 76px;
 }
 .captionWhite1 {
     font-size: 133px;
-    line-height: 100px;
+    font-family: Monda;
+    line-height: 62px;
     font-weight: bold;
     color: #ffffff;
 }
 .home .infoBlock {
-    margin-top: 100px;
+    margin-top: 143px;
 }
 
 .captionWhite1 span {
@@ -297,6 +306,7 @@ header .topLine {
 .infoBlock p {
     font-size: 20px;
     line-height: 33px;
+    letter-spacing: 0.025mm;
     font-weight: 300;
     color: #96c2ff;
     margin-top:  80px;
@@ -327,14 +337,13 @@ header .topLine {
     color: #ffffff;
     padding-left: 60px;
 }
+
 .btnRed {
     display: block;
     position: relative;
-
     width: 260px;
     height: 65px;
     background-color: #e0186c;
-
     border: none;
 }
 [class*="btnRed"]::before {
@@ -391,7 +400,8 @@ header .topLine {
     color: #d9e1f4;
 }
 .content .home .infoCost {
-    margin-left: 250px;
+    margin-left: 202px;
+    margin-top: 48px;
 }
 .infoCost .infoCost span {
     display: block;
@@ -402,7 +412,7 @@ header .topLine {
 .infoCost .infoCost li {
     float: left;
     position: relative;
-    margin-right: 100px;
+    margin-left: 140px;
 }
 .infoCost li div [class*="icon"] {
     position: absolute;
@@ -411,6 +421,27 @@ header .topLine {
     left: -50px;
 }
 
+.content .home .infoCost .icon-15 {
+     margin-left: -24px;
+    z-index: 1;
+ }
+.content .home .infoCost .icon-16 {
+    margin-left: -24px;
+    z-index: 1;
+}
+.content .home .infoCost .icon-17 {
+    margin-left: -24px;
+    z-index: 1;
+}
+.content .home .infoCost .icon-50 {
+    position: absolute;
+    z-index: 0;
+    color: #ffffff;
+    font-size: 86px;
+    margin-left: -45px;
+    top: 10px;
+    filter: drop-shadow(21px 21px 21px rgba(136, 163, 221, 0.33));
+}
 .infoCost .styleCost  {
     font-size: 30px;
     color: #012c7a;
@@ -443,28 +474,26 @@ header .topLine {
     background-color: #eaeff9;
 }
 .infoCompany {
-    margin-top: 144px;
+    margin-top: 75px;
 
 }
 .infoCompany .link a {
     font-size: 16px;
+    font-family: Monda;
+    letter-spacing: 0.025em;
     line-height: 110px;
     font-weight: bold;
     text-decoration: none;
     color: #0349c6;
+    margin-left: 50px;
 }
-.moreInfo a {
-    font-size: 16px;
-    line-height: 53px;
-    font-weight: bold;
-    color: #ffffff;
-    width: 200px;
-    background-color: #2f7bde;
-    text-decoration: none;
-    border: none;
+.aboutUs .infoCompany .btnBlue {
+    margin-left: 42px;
+    margin-top: 108px;
 }
 .captionBlue {
     font-size: 50px;
+    font-family: Monda;
     line-height: 50px;
     font-weight: bold;
     color: #0349c6;
@@ -474,13 +503,13 @@ header .topLine {
     line-height: 30px;
     font-weight: 500;
     color: #012c7a;
-    margin-top: 50px;
+    margin-top: 58px;
 }
 .text2 {
     font-size: 16px;
     line-height: 30px;
     color: #012c7a;
-    margin-top: 50px;
+    margin-top: 32px;
 }
 .aboutUs {
     padding-bottom: 300px;
@@ -669,12 +698,18 @@ header .topLine {
 .calculator .calc .inputBlock2 input {
      width: 300px;
      height: 34px;
-    border: 1px solid #3168cb;
+     border: 1px solid #3168cb;
+    background-color: #0b46ab;
+    color: #ffffff;
  }
 .calculator .calc .selectBlock select {
     width: 300px;
     height: 34px;
     border: 1px solid #3168cb;
+    background-color: #0b46ab;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0.05em;
 }
 .royalPlan .btnRed {
     margin: 0px auto;
@@ -704,9 +739,12 @@ header .topLine {
     background-position: center;
     background-repeat: no-repeat;
 }
-.videoPage img {
+.videoPage .video {
+    width: 1145px;
+    height: 720px;
+    margin: 0px auto;
     border: 11px solid #ffffff;
-    margin-top: 115px;
+
 }
 .statistics {
     position: relative;
@@ -854,7 +892,7 @@ header .topLine {
     position: absolute;
     z-index: -1;
     left: 50%;
-    margin-left: -960px;
+    margin-left: -952px;
     width: 1920px;
     height: 770px;
     top: -70px;
@@ -966,7 +1004,7 @@ header .topLine {
     position: absolute;
     z-index: -1;
     left: 50%;
-    margin-left: -960px;
+    margin-left: -978px;
     width: 1920px;
     height: 772px;
     background-position: center;
@@ -998,11 +1036,14 @@ footer .contact .logo .txt {
 footer .logo {
     text-align: center;
     position: relative;
+    padding-top: 60px;
 }
 footer .logo img {
+    width: 120px;
+    height: 104px;
     position: absolute;
-    top: 15px;
-    right: 150px;
+    top: 10px;
+    right: 120px;
 }
 
 footer .contact a {
@@ -1032,19 +1073,22 @@ footer .contact {
     display: block;
 }
 /*ВТОРАЯ СТРАНИЦА ДИПЛОМНОГО ПРОЕКТА*/
-.cabHeader .deposit .btnRed {
-    display: block;
-    position: relative;
+.cabHeader .deposit .btnRed a {
     font-size: 16px;
     line-height: 65px;
     font-weight: bold;
     font-family: monda;
     padding-left: 32px;
     color: #ffffff;
+    text-decoration: none;
+}
+
+.cabHeader .deposit .btnRed {
+    display: block;
+    position: relative;
     width: 199px;
     height: 65px;
     background-color: #e0186c;
-    text-decoration: none;
     border: none;
 }
 .cabHeader .deposit .btnRed::before {
@@ -1071,20 +1115,33 @@ footer .contact {
     border-top: 32px solid transparent;
     border-bottom: 33px solid transparent;
 }
-.cabHeader .deposit .btnBlue {
-    display: block;
-    position: relative;
+.cabHeader .deposit .btnBlue a {
     font-size: 16px;
     line-height: 65px;
     font-weight: bold;
     font-family: monda;
     padding-left: 32px;
     color: #ffffff;
+    text-decoration: none;
+}
+.cabHeader .deposit .btnBlue {
+    display: block;
+    position: relative;
     width: 199px;
     height: 65px;
     background-color: #003ead;
-    text-decoration: none;
     border: none;
+}
+.cabHeader .deposit .btnBlue .icon-34 {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+.cabHeader .deposit .btnBlue .icon-50 {
+    position: absolute;
+    z-index: 0;
+    right: 145px;
+    color: #3667be;
 }
 .cabHeader .deposit .btnBlue::before {
     content: "";
@@ -1125,24 +1182,30 @@ footer .contact {
     text-align: center;
     margin-bottom: -30px;
     font-size: 20px;
+    line-height: 50px;
 }
 .navi a {
     font-size: 14px;
-    line-height: 120px;
+    line-height: 80px;
     text-decoration: none;
     color: #ffffff;
+
 }
 .navi {
     padding-top: 25px;
 }
 .navi li {
     text-align: center;
+    border-bottom: 1px solid #325088;
+}
+.navi li+li {
+    margin-top: 20px;
 }
 .navigation .copyright {
     font-size: 13px;
     line-height: 30px;
     color: #96c2ff;
-    padding-top: 445px;
+    padding-top: 395px;
     text-align: center;
 }
 .rightBlock .cabHeader .upBlock {
@@ -1242,18 +1305,21 @@ footer .contact {
     padding-top: 17px;
     padding-left: 55px;
 }
+.btnBlue a {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+
+    color: #ffffff;
+    text-decoration: none;
+}
 .btnBlue {
     display: block;
-    position: relative;
-    font-size: 16px;
-    line-height: 60px;
-    font-weight: bold;
     text-align: center;
-    color: #ffffff;
+    position: relative;
     width: 168px;
     height: 53px;
     background-color: #2f7bde;
-    text-decoration: none;
     border: none;
 }
 
@@ -1262,6 +1328,9 @@ footer .contact {
     font-size: 35px;
     margin-left: 80px;
     margin-right: 20px;
+}
+.userBlock .deposit {
+    background-color: #f3f7ff;
 }
 .deposit .balance span:nth-child(1) {
     font-size: 12px;
@@ -1421,6 +1490,7 @@ footer .contact {
     letter-spacing: 0.025em;
     color: #012c7a;
     border: 1px solid #cfdaf1;
+    background-color: #eaeff9;
 }
 .content2 .upline {
     width: 680px;
@@ -1451,6 +1521,7 @@ footer .contact {
 }
 .upline .user {
     margin-top: 40px;
+    margin-left: 123px;
 }
 .content2 .text .summ {
     display: table;
