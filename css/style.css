@@ -206,9 +206,10 @@ header .register a {
 }
 header .logo {
     position: relative;
-    padding-left: 65px;
+    padding-left: 73px;
     width: 255px;
     float: left;
+    margin-top: -17px;
 }
 header .logo img {
     position: absolute;
@@ -261,15 +262,27 @@ header .topLine {
     color: #ffffff;
     text-decoration: none;
 }
+.socBlock {
+    position: absolute;
+}
+.content .home .socBlock > span {
+    top: -125px;
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 200px;
+    left: -90px;
+    text-transform: uppercase;
+}
 .content .home .socBlock span {
     font-size: 19px;
     line-height: 19px;
     font-weight: bold;
     color: #2f7bde;
+    display: block;
 }
 .control li {
     display: inline-block;
-    padding-top: 60px;
+    padding-top: 72px;
 }
 .control ul {
     margin-left: 10px;
@@ -553,13 +566,10 @@ header .topLine {
 .investPlan .plans .text span {
     display: block;
 }
-.investPlan .plans {
-    width: 1075px;
-    padding-left: 100px;
-}
+
 .investPlan .plans li {
     float: left;
-    padding-left: 20px;
+    padding-left: 150px;
     width: 33.3333%;
     position: relative;
 }
@@ -568,14 +578,15 @@ header .topLine {
     display: block;
     position: absolute;
     top: 20px;
-    left: -38px;
+    left: 70px;
 }
 .investPlan {
     position: relative;
 }
 .investPlan .plans {
-    position: absolute;
-    top: -60px;
+    position: relative;
+    top: -120px;
+    margin-bottom: -87px;
 }
 .captionWhite {
     font-size: 50px;
@@ -691,17 +702,25 @@ header .topLine {
     margin-top: 60px;
 }
 .calculator .calc .inputBlock2 {
+    position: relative;
     float: left;
     margin-right: 30px;
     text-align: center;
 }
 .calculator .calc .inputBlock2 input {
      width: 300px;
-     height: 34px;
+     height: 55px;
      border: 1px solid #3168cb;
     background-color: #0b46ab;
     color: #ffffff;
  }
+.calculator .calc .inputBlock2 .icon {
+    position: absolute;
+    color: #ffffff;
+    line-height: 55px;
+    right: 15px;
+    bottom: 0px;
+}
 .calculator .calc .selectBlock select {
     width: 300px;
     height: 34px;
@@ -769,9 +788,13 @@ header .topLine {
 }
 .statList .a2 {
     font-size: 45px;
-    line-height: 20px;
+    line-height: 100px;
     font-weight: bold;
     color: #0349c6;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.3);
+    width: 215PX;
 }
 .statList .a3 {
     font-size: 45px;
@@ -816,12 +839,10 @@ header .topLine {
     padding-left: 515px;
     padding-top: 40px;
 }
-.statList1 .icon-20 {
-    margin-left: 40px;
+.statList1 [class*="icon"] {
+    text-align: center;
 }
-.statistics .statList span+span {
-     margin-top:  63px;
- }
+
 .users {
     background-color: #eaeff9;
     width: 1920px;
@@ -833,6 +854,12 @@ header .topLine {
     width: 50%;
     float: left;
 }
+.usersBlock .user:nth-child(1){
+    padding-right: 37px;
+}
+.usersBlock .user:nth-child(2){
+    padding-left: 37px;
+}
 .usersBlock .user .user1 {
     display: table;
     width: 100%;
@@ -841,10 +868,20 @@ header .topLine {
     display: table-row;
     height: 55px;
 }
+.usersBlock .user .user1 li + li {
+    /*border-top: 2px dotted #c1cde2;*/
+    background-image: url(../img/png/border.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
 .usersBlock .user .user1 li span {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+.usersBlock .user:nth-child(2) li span:nth-child(4){
+    color: #de1c6e;
 }
 
 .users .btnBlue {
@@ -937,6 +974,12 @@ header .topLine {
     line-height: 84px;
     font-weight: bold;
     color: #70aeff;
+}
+.referral .rate span > span {
+    font-size: 0.5em;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -17px;
 }
 .referral .rate li{
     float: left;
@@ -1442,6 +1485,7 @@ footer .contact {
 }
 .rightBlock .cabHeader .deposit div {
     display: inline-block;
+    vertical-align: middle;
 }
 .rightBlock .content2 [class*="icon"] {
     color: #de1c6e;
