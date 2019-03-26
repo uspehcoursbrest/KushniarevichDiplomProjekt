@@ -269,16 +269,36 @@ header .topLine {
     top: -125px;
     transform: rotate(-90deg);
     position: absolute;
-    width: 200px;
-    left: -90px;
+    width: 210px;
+    left: -132px;
     text-transform: uppercase;
+}
+.content .home .socBlock {
+    margin-left: 167px;
+    margin-top: 208px;
 }
 .content .home .socBlock span {
     font-size: 19px;
     line-height: 19px;
+    letter-spacing: 0.05em;
     font-weight: bold;
     color: #2f7bde;
     display: block;
+    padding-top: 70px;
+}
+.content .home .socBlock a {
+    text-decoration: none;
+}
+.content .home .socBlock a span:nth-child(1) {
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.content .home .socBlock [class*="icon-50"] {
+    position: absolute;
+    font-size: 60px;
+    color: #2f7bde;
+    z-index: -1;
 }
 .control li {
     display: inline-block;
@@ -298,7 +318,7 @@ header .topLine {
     color: #ffffff;
 }
 .home .infoBlock {
-    margin-top: 143px;
+    margin-top: 163px;
 }
 
 .captionWhite1 span {
@@ -487,7 +507,7 @@ header .topLine {
     background-color: #eaeff9;
 }
 .infoCompany {
-    margin-top: 75px;
+    margin-top: 72px;
 
 }
 .infoCompany .link a {
@@ -531,6 +551,7 @@ header .topLine {
 .content .investPlan {
     position: relative;
     z-index: 2;
+    background-color: #eaeff9;
 }
 .content .investPlan .backImg {
     position: absolute;
@@ -539,18 +560,21 @@ header .topLine {
     margin-left: -960px;
     width: 1920px;
     height: 1122px;
-    top: -180px;
+    top: -191px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .investPlan .plans .plan {
     font-size: 20px;
+    font-family: Monda;
     line-height: 25px;
     font-weight: bold;
     color: #0349c6;
 }
 .investPlan .plans .daily {
     font-size: 35px;
+    font-family: Monda;
+    letter-spacing: -0.05em;
     line-height: 40px;
     font-weight: bold;
     color: #e0186c;
@@ -558,6 +582,8 @@ header .topLine {
 .investPlan .plans .days {
     font-size: 13px;
     line-height: 24px;
+    font-family: Monda;
+    letter-spacing: 0.25em;
     color: #e0186c;
 }
 .investPlan .plans a {
@@ -569,34 +595,35 @@ header .topLine {
 
 .investPlan .plans li {
     float: left;
-    padding-left: 150px;
+    padding-left: 165px;
     width: 33.3333%;
     position: relative;
 }
 .investPlan .plans li [class*="icon"] {
-    font-size: 45px;
+    font-size: 65px;
     display: block;
     position: absolute;
-    top: 20px;
-    left: 70px;
+    top: 11px;
+    left: 86px;
 }
 .investPlan {
     position: relative;
 }
 .investPlan .plans {
     position: relative;
-    top: -120px;
+    top: -154px;
     margin-bottom: -87px;
 }
 .captionWhite {
     font-size: 50px;
-    line-height: 50px;
+    font-family: Monda;
+    line-height: 58px;
     font-weight: bold;
     color: #ffffff;
-    padding-left: 445px;
+    padding-left: 427px;
 }
 .royalPlan .captionWhite {
-    padding-top: 150px;
+    padding-top: 75px;
 }
 .royalPlan .profit {
     padding-left: 65px;
@@ -673,7 +700,7 @@ header .topLine {
 
 .investPlan .summ span {
     font-size: 50px;
-    line-height: 55px;
+    line-height: 91px;
     font-weight: bold;
     color: #ffffff;
     margin-left: 480px;
@@ -685,7 +712,7 @@ header .topLine {
     position: absolute;
     width: 1200px;
     height: 210px;
-    top: 280px;
+    top: 220px;
     left: 950px;
 }
 .investPlan .valueRangeBlock {
@@ -695,11 +722,11 @@ header .topLine {
 
 }
 .calculator .calc {
-    margin-left: 287px;
-    margin-top: 87px;
+    margin-left: 274px;
+    margin-top: 109px;
 }
 .content .investPlan .btnRed {
-    margin-top: 60px;
+    margin-top: 38px;
 }
 .calculator .calc .inputBlock2 {
     position: relative;
@@ -723,7 +750,7 @@ header .topLine {
 }
 .calculator .calc .selectBlock select {
     width: 300px;
-    height: 34px;
+    height: 55px;
     border: 1px solid #3168cb;
     background-color: #0b46ab;
     color: #ffffff;
@@ -743,25 +770,30 @@ header .topLine {
 .videoPage {
     position: relative;
     z-index: 1;
-    color: #91a8ce;
-    width: 1920px;
-    height: 1325px;
+    background-color: #eaeff9;
 }
 .videoPage .backImg {
     position: absolute;
     z-index: -1;
     left: 50%;
     margin-left: -960px;
-    width: 1920px;
-    height: 1325px;
     top: -85px;
     background-position: center;
     background-repeat: no-repeat;
 }
+.videoPage .captionBlue {
+    font-size: 50px;
+    font-family: Monda;
+    line-height: 84px;
+    font-weight: bold;
+    color: #0349c6;
+    margin-left: 8px;
+
+}
 .videoPage .video {
     width: 1145px;
     height: 720px;
-    margin: 0px auto;
+    margin: 86px 10px 214px;
     border: 11px solid #ffffff;
 
 }
@@ -780,11 +812,42 @@ header .topLine {
     background-position: center;
     background-repeat: no-repeat;
 }
+.statList {
+    margin-top: 332px;
+    margin-left: -56px;
+}
 .statList .a1 {
     font-size: 25px;
-    line-height: 34px;
+    line-height: 70px;
     font-weight: bold;
     color: #061046;
+    text-align: center;
+    width: 215px;
+    position: relative;
+}
+.statList .a1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: -100px;
+    width: 0px;
+    height: 0px;
+    border-right: 30px solid #ffffff;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+.statList .a1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: -100px;
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid #ffffff;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
 }
 .statList .a2 {
     font-size: 45px;
@@ -793,25 +856,30 @@ header .topLine {
     color: #0349c6;
     text-align: center;
     background-color: #fff;
-    box-shadow: 0px 0px 35px rgba(0,0,0,0.3);
-    width: 215PX;
+    box-shadow: 21px 21px 21px rgba(0,0,0,0.33);
+    width: 215px;
 }
 .statList .a3 {
     font-size: 45px;
-    line-height: 20px;
+    line-height: 100px;
     font-weight: bold;
     color: #4194ff;
+    text-align: center;
+    box-shadow: 21px 21px 21px rgba(0,0,0,0.33);;
 }
 
 
 .statList .a4 {
     font-size: 45px;
-    line-height: 20px;
+    line-height: 100px;
     font-weight: bold;
     color: #de1c6e;
+    text-align: center;
+    box-shadow: 21px 21px 21px rgba(0,0,0,0.33);
 }
 .statList .icon-20 {
     color: #1153c9;
+    text-align: center;
 }
 #icon20Blue {
     color: #4194ff;
@@ -832,12 +900,12 @@ header .topLine {
 }
 .statistics .statList2 li {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-bottom: 90px;
 }
 .statistics .statList2 {
-    padding-left: 515px;
-    padding-top: 40px;
+    padding-left: 634px;
+    padding-top: 50px;
 }
 .statList1 [class*="icon"] {
     text-align: center;
@@ -845,14 +913,19 @@ header .topLine {
 
 .users {
     background-color: #eaeff9;
-    width: 1920px;
-    height: 930px;
     position: relative;
     z-index: 1;
 }
 .usersBlock .user {
     width: 50%;
     float: left;
+}
+.users .captionBlue {
+    font-size: 50px;
+    font-family: Monda;
+    line-height: 133px;
+    font-weight: bold;
+    color: #0349c6;
 }
 .usersBlock .user:nth-child(1){
     padding-right: 37px;
@@ -866,7 +939,7 @@ header .topLine {
 }
 .usersBlock .user .user1 li {
     display: table-row;
-    height: 55px;
+    height: 20px;
 }
 .usersBlock .user .user1 li + li {
     /*border-top: 2px dotted #c1cde2;*/
@@ -885,14 +958,13 @@ header .topLine {
 }
 
 .users .btnBlue {
-    margin: 0px auto;
-    width: 190px;
+    margin: 80px auto 0px ;
+    width: 137px;
     text-align: center;
-    margin-top: 60px;
 
 }
 .users .usersBlock {
-    padding-top: 105px;
+    padding-top: 44px;
 }
 .usersBlock .user span:nth-child(1) {
     font-size: 16px;
@@ -924,18 +996,18 @@ header .topLine {
 .referral {
     position: relative;
     z-index: 1;
+    /*background-color: #eaeff9;*/
 }
 .referral .backImg {
     position: absolute;
     z-index: -1;
     left: 50%;
-    margin-left: -952px;
+    margin-left: -939px;
     width: 1920px;
     height: 770px;
-    top: -70px;
     background-position: center;
     background-repeat: no-repeat;
-    top: -70px;
+    top: -34px;
 }
 .referral .rate {
     position: relative;
@@ -962,7 +1034,7 @@ header .topLine {
     margin-top: 140px;
 }
 .referral .btnRed {
-    margin: 147px auto ;
+    margin: 172px auto ;
 }
 .referral .rate p {
     font-size: 16px;
