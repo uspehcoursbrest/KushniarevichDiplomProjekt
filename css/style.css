@@ -262,7 +262,7 @@ header .topLine {
     color: #ffffff;
     text-decoration: none;
 }
-.socBlock {
+.content .home .socBlock {
     position: absolute;
 }
 .content .home .socBlock > span {
@@ -942,7 +942,6 @@ header .topLine {
     height: 20px;
 }
 .usersBlock .user .user1 li + li {
-    /*border-top: 2px dotted #c1cde2;*/
     background-image: url(../img/png/border.png);
     background-repeat: repeat-x;
     background-position: left top;
@@ -1057,9 +1056,14 @@ header .topLine {
     float: left;
 }
 .referral .rate li+li {
-    margin-left: 110px;
+    margin-left: 138px;
 }
-
+.referral .rate li:nth-child(4) {
+    float: right;
+}
+.referral .rate span:nth-child(2) {
+    margin-left: 280px;
+}
 .content .news {
     position: relative;
     z-index: 1;
@@ -1187,7 +1191,12 @@ footer .copyright p {
 footer .contact {
     display: block;
 }
+footer .control {
+    margin-bottom: 37px;
+    margin-top: 30px;
+}
 /*ВТОРАЯ СТРАНИЦА ДИПЛОМНОГО ПРОЕКТА*/
+
 .cabHeader .deposit .btnRed a {
     font-size: 16px;
     line-height: 65px;
@@ -1338,7 +1347,7 @@ footer .contact {
 .rightBlock .cabHeader .upBlock .socBlock a{
     color: #ffffff;
     text-decoration: none;
-    margin-right: 80px;
+    margin-right: 42px;
     position: relative;
     z-index: 1;
     text-decoration: none;
@@ -1347,10 +1356,11 @@ footer .contact {
     position: absolute;
     z-index: -2;
     color: #2f7bde;
-    width: 43px;
+    width: 26px;
     height: 38px;
-    margin-top: -22px;
+    margin-top: -7px;
     margin-right: 22px;
+    font-size: 41px;
 }
 .rightBlock .cabHeader .upBlock {
     background-color: #00256a;
@@ -1388,6 +1398,9 @@ footer .contact {
     width: 520px;
     height: 65px;
     box-shadow: 21px 0px 21px 0px rgba(136, 163, 221, 0.33);
+    background-image: url(../img/png/userFoto.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .cabHeader .userBlock .user::before {
     content: "";
@@ -1443,6 +1456,7 @@ footer .contact {
     font-size: 35px;
     margin-left: 80px;
     margin-right: 20px;
+    vertical-align: middle;
 }
 .userBlock .deposit {
     background-color: #f3f7ff;
@@ -1643,7 +1657,6 @@ footer .contact {
     display: table;
     width: 470px;
     height: 120px;
-    margin-top: 15px;
 
 }
 .content2 .text .summ {
@@ -1659,6 +1672,11 @@ footer .contact {
 .content2 .text .summ li span {
     display: table-cell;
     vertical-align: middle;
+}
+.content2 .text .summ li+li {
+    background-image: url(../img/png/border.png);
+    background-repeat: repeat-x;
+    background-position: left top;
 }
 .content2 .invest {
     width: 680px;
@@ -1698,4 +1716,35 @@ footer .contact {
 .navigation {
     background-color: #00256b;
 }
-
+.btnRed .icon-50::before{
+    animation: circleFill 2.2s infinite ease-in-out;
+}
+.btnRed .icon-50::after {
+    animation: circleFill 4s infinite ease-in-out;
+}
+@keyframes circleFill  {
+    0%{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.1;
+    }
+    50%{
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100%{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.2;
+    }
+}
