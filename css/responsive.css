@@ -1,0 +1,298 @@
+@media (max-width: 1439px) {
+    .container {
+        width: 1200px;
+    }
+    .home .socBlock {
+        display: none;
+    }
+    .textFon {
+        display: none;
+    }
+}
+@media (max-width: 1199px) {
+    .container {
+        width: 950px;
+    }
+
+    .control li + li {
+        margin-left: 45px;
+    }
+
+    .home .infoCost [class*="icon"] {
+        display: none;
+    }
+
+    .home .infoCost li {
+        margin-left: 35px;
+    }
+
+    .investPlan .plans li [class*="icon"] {
+        display: none;
+    }
+
+    .investPlan .plans li {
+        padding-left: 85px;
+    }
+
+    .royalPlan .captionWhite {
+        padding-left: 290px;
+    }
+
+    .content .investPlan .royalPlan .backImg {
+        left: 864px;
+    }
+
+    .royalPlan .profit div {
+        margin-right: 17px;
+    }
+
+    .royalPlan .profit {
+    padding-left: 40px;
+    }
+    .royalPlan .calculator {
+        margin-left: -130px;
+    }
+    .royalPlan .summ {
+        margin-left: -120px;
+    }
+    .videoPage .video {
+        width: 900px;
+        height: 650px;
+    }
+    .statistics .statList2 {
+        padding-left: 217px;
+    }
+    .referral {
+        display: none;
+    }
+    .partners .logo li:nth-child(5) {
+        display: none;
+    }
+    footer .logo img {
+        left: 76px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    header .time {
+        display: none;
+    }
+    .control a {
+        font-size: 17px;
+    }
+    .control li {
+        padding-top: 30px;
+    }
+    .control li + li {
+        margin-left: 90px;
+    }
+    .home .infoBlock {
+        margin-top: 100px;
+    }
+    .home .captionWhite1 {
+        font-size: 100px;
+    }
+    .home .infoBlock p {
+        display: block;
+        width: 500px;
+
+    }
+    .content .home .btnRed {
+        margin-top: 58px;
+        margin-left: 20px;
+    }
+    .content .home .infoCost {
+        margin-left: 124px;
+    }
+    .aboutUs .captionBlue {
+        font-size: 35px;
+    }
+    .aboutUs .right {
+        display: block;
+        width: 450px;
+    }
+    .infoCompany .left {
+        width: 220px;
+    }
+    .aboutUs .right .text .text1 {
+        margin-top: 15px;
+    }
+    .aboutUs .right .text .text2 {
+        margin-top: 10px;
+    }
+    .content .investPlan .backImg {
+        width: 2853px;
+    }
+    .investPlan .plans li+li {
+        margin-left: -63px;
+    }
+    .investPlan .plans li {
+        padding-left: 64px;
+    }
+    .royalPlan .captionWhite {
+        padding-left: 210px;
+    }
+    .royalPlan .profit .part3 {
+        display: none;
+    }
+    .royalPlan .profit .part4 {
+        display: none;
+    }
+    .content .investPlan .royalPlan .backImg {
+        left: 700px;
+    }
+    .royalPlan .profit {
+        padding-left: 134px;
+    }
+    .calculator .calc .selectBlock select {
+        width: 230px;
+    }
+    .calculator .calc .inputBlock2 input {
+        width: 230px;
+    }
+    .investPlan .valueRangeBlock {
+        margin-left: 445px;
+        margin-top: 18px;
+    }
+    .investPlan .summ span {
+        line-height: 0;
+        margin-left: 380px;
+    }
+    .videoPage .video {
+        width: 775px;
+        height: 400px;
+    }
+    .videoPage .backImg {
+        height: 1100px;
+    }
+    .statistics .statList {
+        margin-left: 0;
+    }
+    .statistics .statList1 li:nth-child(3) {
+        padding-left: 150px;
+    }
+    .statistics .statList2 {
+        padding-left: 54px;
+    }
+    footer .contact .logo {
+        display: none;
+    }
+    footer .contact a {
+        font-size: 25px;
+    }
+    footer .contact .leftFooter span {
+        font-size: 20px;
+    }
+    footer .contact .rightFooter span {
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    header .time {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 479px) {
+    .container {
+        width: 100%;
+    }
+    header .topLine .logo {
+        display: block;
+        position: absolute;
+        margin-left: 30px;
+    }
+    header .topLine .register {
+        margin-top: 110px;
+        right: 30px;
+    }
+    .control ul {
+        display: none !important;
+    }
+    header .selectControl select {
+        background-color: #2b7fed;
+        width: 250px;
+        height: 35px;
+        border: 1px solid #2f7bde;
+        margin-left: 40px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    header .selectControl option {
+        color: #ffffff;
+    }
+    .home .captionWhite1 {
+        font-size: 60px;
+    }
+    .home .captionWhite1 span {
+        font-size: 40px;
+    }
+    .home .infoBlock p{
+        font-size: 14px;
+        width: 330px;
+        margin-top: 20px;
+    }
+    .home .infoBlock p br {
+        display: none;
+    }
+    .home .infoCost {
+        display: none;
+    }
+    .aboutUs {
+        padding-left: 30px;
+        padding-bottom: 133px;
+    }
+    .aboutUs .infoCompany .btnBlue {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .infoCompany .link a {
+        line-height: 60px;
+    }
+    .aboutUs .right .text {
+        width: 300px;
+        margin-left: 140px;
+    }
+    .aboutUs .right .captionBlue {
+        font-size: 30px;
+    }
+    .content .investPlan {
+        display: none;
+    }
+    .content .statistics {
+        display: none;
+    }
+    .content .users {
+        display: none;
+    }
+    .videoPage .captionBlue {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    .videoPage .video {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 300px;
+        height: 200px;
+    }
+    .partners .backImg {
+        margin-left: -1311px;
+    }
+    footer .leftFooter {
+        padding-top: 0px;
+    }
+
+}
+
+
+
+
+

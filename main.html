@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 <div class="bodyWrap">
@@ -24,7 +25,7 @@
                     <a href="#">Главная страница</a>
                 </div>
                 <div class="register">
-                    <ul class="register">
+                    <ul>
                         <li><span class="icon-12"></span><a href="#">LOGIN</a></li>
                         <li><span class="icon-13"></span><a href="#">REGISTER</a></li>
                     </ul>
@@ -40,7 +41,7 @@
             </div>
             <div class="control">
                 <ul class="control">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="#" class="activ">HOME</a></li>
                     <li><a href="#">ABOUT US</a></li>
                     <li><a href="#">AFFILATE</a></li>
                     <li><a href="#">PLANS</a></li>
@@ -51,6 +52,19 @@
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
             </div>
+            <div class="selectControl">
+                <select name="contrl" id="contrl">
+                    <option value="1">HOME</option>
+                    <option value="2">ABOUT US</option>
+                    <option value="3">AFFILATE</option>
+                    <option value="4">PLANS</option>
+                    <option value="5">NEWS</option>
+                    <option value="6">FAQ</option>
+                    <option value="7">RATE US</option>
+                    <option value="8">RULES</option>
+                    <option value="9">CONTACT US</option>
+                </select>
+            </div>
         </div>
     </header>
 
@@ -58,18 +72,18 @@
         <div class="home">
             <div class="socBlock">
                 <span>WE ON SOCIAL MEDIA</span>
-                    <a href="#">
-                        <span class="icon-26"></span>
-                        <span class="icon-50"></span>
-                    </a>
-                    <a href="#">
-                        <span class="icon-24"></span>
-                        <span class="icon-50"></span>
-                    </a>
-                    <a href="#">
-                        <span class="icon-25"></span>
-                        <span class="icon-50"></span>
-                    </a>
+                <a href="#">
+                    <span class="icon-26"></span>
+                    <span class="icon-50"></span>
+                </a>
+                <a href="#">
+                    <span class="icon-24"></span>
+                    <span class="icon-50"></span>
+                </a>
+                <a href="#">
+                    <span class="icon-25"></span>
+                    <span class="icon-50"></span>
+                </a>
             </div>
             <div class="container">
                 <div class="infoBlock">
@@ -106,7 +120,7 @@
         </div>
         <div class="aboutUs">
             <div class="textFon right">
-                <h3>i-forex Group Limited</h3>
+                <h3>I-FOREX Group Limited</h3>
             </div>
             <div class="container">
                 <div class="infoCompany clear">
@@ -255,7 +269,7 @@
             </div>
         </div>
         <div class="videoPage">
-            <div class="backImg" style="background-image: url(img/jpg/fonVideo.jpg)"></div>
+            <div class="backImg" style="background-image: url(img/png/fonVideo.png)"></div>
             <div class="textFon left">
                 <h3>I-FOREX GROUP LIMITED VIDEO</h3>
             </div>
@@ -264,9 +278,6 @@
                     <h1 class="captionBlue">I-FOREX Group Limited Video</h1>
                     <div class="video" style="background-image: url(img/jpg/video.jpg)"></div>
                 </div>
-                <!--<div class="map">-->
-                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d39235.61982862268!2d23.7293051!3d52.0756113!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1553246335886" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-                <!--</div>-->
             </div>
         </div>
         <div class="statistics">
@@ -414,7 +425,7 @@
                     </div>
                 </div>
                 <div class="btnBlue">
-                    <a href="#" class="btnBlue">More Info</a>
+                    <a href="#">More Info</a>
                 </div>
             </div>
         </div>

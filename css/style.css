@@ -48,7 +48,54 @@ ul {
 [class*="btn"]:hover {
     opacity: 0.7;
 }
+a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+}
+.control a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
 
+}
+.control a:hover {
+    color: #f12f77;
+}
+.control2 a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+
+}
+.control2 a:hover {
+    color: #f12f77;
+}
+.control a.activ::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-bottom: 9px solid #f12f77;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
 /*.videoPage .map {*/
     /*width: 350px;*/
     /*height: 350px;*/
@@ -199,7 +246,7 @@ header .register [class*="icon"] {
 }
 header .register a {
     font-size: 13px;
-    line-height: 46px;
+    line-height: 51px;
     color: #ffffff;
     letter-spacing: 0.1em;
     text-decoration: none;
@@ -216,6 +263,7 @@ header .logo img {
     left: 0px;
     top: 50%;
     margin-top: -16px;
+    margin-left: 10px;
     width: 55px;
     height: 50px;
 }
@@ -264,6 +312,9 @@ header .topLine {
 }
 .content .home .socBlock {
     position: absolute;
+    text-transform: uppercase;
+    top: 200px;
+    left: 167px;
 }
 .content .home .socBlock > span {
     top: -125px;
@@ -273,10 +324,7 @@ header .topLine {
     left: -132px;
     text-transform: uppercase;
 }
-.content .home .socBlock {
-    margin-left: 167px;
-    margin-top: 208px;
-}
+
 .content .home .socBlock span {
     font-size: 19px;
     line-height: 19px;
@@ -289,16 +337,19 @@ header .topLine {
 .content .home .socBlock a {
     text-decoration: none;
 }
-.content .home .socBlock a span:nth-child(1) {
-    color: #ffffff;
-    position: relative;
-    z-index: 1;
-}
+.content .home .socBlock a>span:nth-child(1) {
+     color: #ffffff;
+     position: relative;
+     z-index: 1;
+ }
+
 .content .home .socBlock [class*="icon-50"] {
     position: absolute;
     font-size: 60px;
     color: #2f7bde;
     z-index: -1;
+    left: -19px;
+    top: 0px;
 }
 .control li {
     display: inline-block;
@@ -384,9 +435,9 @@ header .topLine {
      display: block;
      position: absolute;
      right: 100%;
-     top: 0px;
-     width: 0px;
-     height: 0px;
+     top: 0;
+     width: 0;
+     height: 0;
      border-right: 20px solid #e0186c;
      border-top: 32px solid transparent;
      border-bottom: 33px solid transparent;
@@ -428,7 +479,8 @@ header .topLine {
     border-bottom: 27px solid transparent;
 }
 .right h3 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: Monda;
     line-height: 50px;
     color: #d9e1f4;
 }
@@ -503,8 +555,20 @@ header .topLine {
     color: #4194ff;
 }
 /*БЛОК ABOUTUS*/
+
+.aboutUs .right h3 {
+    top: 580px;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 800px;
+    left: 1300px;
+    text-transform: uppercase;
+}
 .aboutUs {
     background-color: #eaeff9;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 300px;
 }
 .infoCompany {
     margin-top: 72px;
@@ -544,9 +608,7 @@ header .topLine {
     color: #012c7a;
     margin-top: 32px;
 }
-.aboutUs {
-    padding-bottom: 300px;
-}
+
 /*СТРАНИЦА ИНВЕСТ ПЛАН*/
 .content .investPlan {
     position: relative;
@@ -770,32 +832,41 @@ header .topLine {
 .videoPage {
     position: relative;
     z-index: 1;
-    background-color: #eaeff9;
+}
+.videoPage .left h3 {
+    top: 530px;
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 800px;
+    left: -150px;
+    text-transform: uppercase;
 }
 .videoPage .backImg {
     position: absolute;
     z-index: -1;
     left: 50%;
     margin-left: -960px;
-    top: -85px;
+    width: 1920px;
+    height: 1330px;
+    top: -135px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .videoPage .captionBlue {
     font-size: 50px;
     font-family: Monda;
-    line-height: 84px;
+    line-height: 50px;
     font-weight: bold;
     color: #0349c6;
     margin-left: 8px;
+    padding-top: 100px;
 
 }
 .videoPage .video {
     width: 1145px;
     height: 720px;
-    margin: 86px 10px 214px;
     border: 11px solid #ffffff;
-
+    margin-top: 110px;
 }
 .statistics {
     position: relative;
@@ -808,7 +879,7 @@ header .topLine {
     margin-left: -960px;
     width: 1920px;
     height: 680px;
-    top: -135px;
+    top: -166px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -856,7 +927,7 @@ header .topLine {
     color: #0349c6;
     text-align: center;
     background-color: #fff;
-    box-shadow: 21px 21px 21px rgba(0,0,0,0.33);
+    box-shadow: 21px 21px 61px rgba(0,0,0,0.33);
     width: 215px;
 }
 .statList .a3 {
@@ -865,7 +936,7 @@ header .topLine {
     font-weight: bold;
     color: #4194ff;
     text-align: center;
-    box-shadow: 21px 21px 21px rgba(0,0,0,0.33);;
+    box-shadow: 21px 21px 61px rgba(0,0,0,0.33);;
 }
 
 
@@ -875,7 +946,7 @@ header .topLine {
     font-weight: bold;
     color: #de1c6e;
     text-align: center;
-    box-shadow: 21px 21px 21px rgba(0,0,0,0.33);
+    box-shadow: 21px 21px 61px rgba(0,0,0,0.33);
 }
 .statList .icon-20 {
     color: #1153c9;
@@ -905,7 +976,7 @@ header .topLine {
 }
 .statistics .statList2 {
     padding-left: 634px;
-    padding-top: 50px;
+    padding-top: 37px;
 }
 .statList1 [class*="icon"] {
     text-align: center;
@@ -916,6 +987,14 @@ header .topLine {
     position: relative;
     z-index: 1;
 }
+.users .right h3 {
+    top: 480px;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 800px;
+    left: 1300px;
+    text-transform: uppercase;
+}
 .usersBlock .user {
     width: 50%;
     float: left;
@@ -923,9 +1002,10 @@ header .topLine {
 .users .captionBlue {
     font-size: 50px;
     font-family: Monda;
-    line-height: 133px;
+    line-height: 91px;
     font-weight: bold;
     color: #0349c6;
+    padding-top: 79px;
 }
 .usersBlock .user:nth-child(1){
     padding-right: 37px;
@@ -957,7 +1037,7 @@ header .topLine {
 }
 
 .users .btnBlue {
-    margin: 80px auto 0px ;
+    margin: 80px auto 0 ;
     width: 137px;
     text-align: center;
 
@@ -1055,15 +1135,16 @@ header .topLine {
 .referral .rate li{
     float: left;
 }
-.referral .rate li+li {
-    margin-left: 138px;
+.referral .rate li:nth-child(2) {
+    margin-left: 140px;
+}
+.referral .rate li:nth-child(3) {
+    padding-left: 180px;
 }
 .referral .rate li:nth-child(4) {
     float: right;
 }
-.referral .rate span:nth-child(2) {
-    margin-left: 280px;
-}
+
 .content .news {
     position: relative;
     z-index: 1;
@@ -1220,9 +1301,9 @@ footer .control {
     display: block;
     position: absolute;
     right: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-right: 20px solid #e0186c;
     border-top: 32px solid transparent;
     border-bottom: 33px solid transparent;
@@ -1232,9 +1313,9 @@ footer .control {
     display: block;
     position: absolute;
     left: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-left: 20px solid #e0186c;
     border-top: 32px solid transparent;
     border-bottom: 33px solid transparent;
@@ -1272,9 +1353,9 @@ footer .control {
     display: block;
     position: absolute;
     right: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-right: 20px solid #003ead;
     border-top: 32px solid transparent;
     border-bottom: 33px solid transparent;
@@ -1284,9 +1365,9 @@ footer .control {
     display: block;
     position: absolute;
     left: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-left: 20px solid #003ead;
     border-top: 32px solid transparent;
     border-bottom: 33px solid transparent;
@@ -1304,7 +1385,7 @@ footer .control {
     color: #89b4f4;
     display: block;
     text-align: center;
-    margin-bottom: -30px;
+    margin-bottom: -35px;
     font-size: 20px;
     line-height: 50px;
 }
@@ -1350,7 +1431,6 @@ footer .control {
     margin-right: 42px;
     position: relative;
     z-index: 1;
-    text-decoration: none;
 }
 .rightBlock .cabHeader .upBlock .socBlock a .icon-50 {
     position: absolute;
@@ -1397,7 +1477,7 @@ footer .control {
     background-color: #f3f7ff;
     width: 520px;
     height: 65px;
-    box-shadow: 21px 0px 21px 0px rgba(136, 163, 221, 0.33);
+    box-shadow: 21px 0 21px 0 rgba(136, 163, 221, 0.33);
     background-image: url(../img/png/userFoto.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -1407,9 +1487,9 @@ footer .control {
     display: block;
     position: absolute;
     right: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-right: 23px solid #f3f7ff;
     border-top: 34px solid transparent;
     border-bottom: 34px solid transparent;
@@ -1422,9 +1502,9 @@ footer .control {
     display: block;
     position: absolute;
     left: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-left: 23px solid #f3f7ff;
     border-top: 34px solid transparent;
     border-bottom: 34px solid transparent;
@@ -1475,7 +1555,7 @@ footer .control {
 }
 .deposit .balance span{
     padding-right: 80px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 .deposit{
     float: right;
@@ -1615,6 +1695,7 @@ footer .control {
 }
 .content2 .referral2 input {
     width: 472px;
+    height: 54px;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.025em;
@@ -1719,9 +1800,7 @@ footer .control {
 .btnRed .icon-50::before{
     animation: circleFill 2.2s infinite ease-in-out;
 }
-.btnRed .icon-50::after {
-    animation: circleFill 4s infinite ease-in-out;
-}
+
 @keyframes circleFill  {
     0%{
         -webkit-transform: scale(1);
@@ -1729,7 +1808,7 @@ footer .control {
         -ms-transform: scale(1);
         -o-transform: scale(1);
         transform: scale(1);
-        opacity: 0.1;
+        color: #e0186c;
     }
     50%{
         -webkit-transform: scale(0);
@@ -1737,7 +1816,7 @@ footer .control {
         -ms-transform: scale(0);
         -o-transform: scale(0);
         transform: scale(0);
-        opacity: 1;
+        color: #e43981;
     }
     100%{
         -webkit-transform: scale(1);
@@ -1745,6 +1824,6 @@ footer .control {
         -ms-transform: scale(1);
         -o-transform: scale(1);
         transform: scale(1);
-        opacity: 0.2;
+        color: #e0186c;
     }
 }
