@@ -314,7 +314,7 @@ header .topLine {
     position: absolute;
     text-transform: uppercase;
     top: 200px;
-    left: 167px;
+    left: calc((((100vw - 1200px) / 2) / 2) - 30px)
 }
 .content .home .socBlock > span {
     top: -125px;
@@ -324,7 +324,9 @@ header .topLine {
     left: -132px;
     text-transform: uppercase;
 }
-
+header .selectControl {
+    display: none;
+}
 .content .home .socBlock span {
     font-size: 19px;
     line-height: 19px;

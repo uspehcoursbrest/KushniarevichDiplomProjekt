@@ -194,11 +194,77 @@
     .container {
         width: 100%;
     }
-    header .time {
+    header .register {
+        display: block;
+        position: absolute;
+        right: -40px;
+    }
+    header .control {
         display: none;
     }
-
-
+    header .selectControl {
+        display: block;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    header .selectControl select {
+        width: 380px;
+        height: 40px;
+        font-family: Monda;
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #2b7fed;
+        border: none;
+    }
+    .home .captionWhite1 {
+        font-size: 80px;
+    }
+    .infoBlock p {
+        margin-top: 40px;
+        width: 402px;
+    }
+    .home .infoBlock p {
+        width: 402px;
+    }
+    .content .home .infoCost {
+        margin-left: 30px;
+    }
+    .content .home .infoCost ul li:nth-child(3) {
+        display: none;
+    }
+    .infoCompany .link a {
+        line-height: 60px;
+        margin-left: 60px;
+    }
+    .aboutUs {
+        padding-top: 80px;
+        padding-bottom: 73px;
+    }
+    .aboutUs .infoCompany .btnBlue {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .investPlan {
+        display: none;
+    }
+    .videoPage .video {
+        width: 450px;
+        height: 270px;
+    }
+    .statList {
+        margin-top: 60px;
+    }
+    .videoPage .backImg {
+        height: 770px;
+    }
+    .statistics .statList1 li:nth-child(3) {
+        margin-left: -70px;
+    }
+    .usersBlock .user:nth-child(2) {
+        display: block;
+        float: right;
+}
 }
 
 @media (max-width: 479px) {
@@ -287,7 +353,20 @@
         margin-left: -1311px;
     }
     footer .leftFooter {
+        padding-top: 30px;
+        font-size: 10px;
+    }
+    footer .contact .leftFooter span {
+        font-size: 14px;
+    }
+    footer .contact a {
+        font-size: 14px;
+    }
+    footer .rightFooter {
         padding-top: 0px;
+    }
+    footer .contact .rightFooter span {
+        font-size: 14px;
     }
 
 }
