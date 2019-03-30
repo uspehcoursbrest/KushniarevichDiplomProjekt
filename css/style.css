@@ -988,6 +988,7 @@ header .selectControl {
     background-color: #eaeff9;
     position: relative;
     z-index: 1;
+    padding-bottom: 50px;
 }
 .users .right h3 {
     top: 480px;
@@ -1088,7 +1089,7 @@ header .selectControl {
     height: 770px;
     background-position: center;
     background-repeat: no-repeat;
-    top: -34px;
+    top: -67px;
 }
 .referral .rate {
     position: relative;
@@ -1101,7 +1102,7 @@ header .selectControl {
     left: 330px;
 }
 .referral h1 {
-    padding-top: 105px;
+    padding-top: 74px;
 }
 .referral .info p {
     font-size: 20px;
