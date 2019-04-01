@@ -8,6 +8,46 @@
     .textFon {
         display: none;
     }
+    .control2 ul {
+        display: none;
+    }
+    .rightBlock .cabHeader .upBlock .socBlock {
+        margin-top: -35px;
+        margin-right: 187px;
+    }
+    .rightBlock .control2 .contr2 {
+        display: block;
+
+    }
+    .rightBlock .control2 .contr2 select{
+        width: 241px;
+        height: 60px;
+        font-size: 30px;
+        font-family: Monda;
+        font-weight: bold;
+        color: #f3f7ff;
+        background-color: #012c7a;
+        border: none;
+    }
+    .deposit {
+        /*float: none;*/
+        margin-right: 70px;
+        margin-top: 30px;
+        padding-right: 1px;
+    }
+    .icon-33 {
+        margin-left: 30px;
+    }
+    .deposit .balance span {
+        padding-right: 40px;
+    }
+    .content2 .referral2 {
+        margin-left: 43px;
+        margin-bottom: 40px;
+    }
+    .content2 .invest {
+        margin-left: 43px;
+    }
 }
 @media (max-width: 1199px) {
     .container {
@@ -71,12 +111,18 @@
     footer .logo img {
         left: 76px;
     }
+    .rightBlock .cabHeader .upBlock .socBlock {
+        margin-right: 50px;
+    }
+    .rightBlock .deposit {
+        display: none;
+    }
 }
 @media (max-width: 991px) {
     .container {
         width: 750px;
     }
-    header .time {
+    header .time1 {
         display: none;
     }
     .control a {
@@ -188,6 +234,33 @@
     footer .contact .rightFooter span {
         font-size: 20px;
     }
+    .rightBlock .cabHeader .fonUserBlock .userBlock {
+        padding-left: 23px;
+    }
+    .rightBlock .cost li {
+        margin-left: 150px;
+    }
+    .rightBlock .cabHeader .upBlock .socBlock {
+        display: none;
+    }
+    .content2 .referral2 {
+        width: 480px;
+    }
+    .content2 .referral2 input {
+        width: 350px;
+    }
+    .content2 .upline {
+        width: 480px;
+    }
+    .content2 .invest {
+        width: 480px;
+    }
+    .content2 .text .summ {
+        width: 350px;
+    }
+    .content2 .withdrawal {
+        width: 480px;
+    }
 
 }
 @media (max-width: 767px) {
@@ -251,12 +324,14 @@
     .videoPage .video {
         width: 450px;
         height: 270px;
+        margin-top: 70px;
     }
+
     .statList {
         margin-top: 60px;
     }
     .videoPage .backImg {
-        height: 770px;
+        height: 640px;
     }
     .statistics .statList1 li:nth-child(3) {
         margin-left: -70px;
@@ -269,6 +344,86 @@
         float: none;
         width: 100%;
     }
+    .videoPage .captionBlue {
+        padding-top: 1px;
+    }
+    .partners .logo li:nth-child(3) {
+        display: none;
+    }
+    .partners .logo li:nth-child(4) {
+        display: none;
+    }
+    .partners .logo li:nth-child(5) {
+        display: none;
+    }
+    footer .leftFooter {
+        padding-top: 30px;
+        font-size: 10px;
+    }
+    footer .contact .leftFooter span {
+        font-size: 14px;
+    }
+    footer .contact a {
+        font-size: 14px;
+    }
+    footer .rightFooter {
+        padding-top: 15px;
+    }
+    footer .contact .rightFooter span {
+        font-size: 14px;
+    }
+    footer .control {
+        display: none;
+    }
+    .leftBlock {
+        display: none;
+    }
+    .rightBlock {
+        width: 100%;
+    }
+    .rightBlock .cost li {
+        margin-left: 124px;
+    }
+    .rightBlock .control2 .contr2 select {
+        width: 245px;
+        margin-top: 30px;
+    }
+    .rightBlock .naviSelect select {
+        display: block;
+        position: absolute;
+        left: 255px;
+        top: 140px;
+        width: 230px;
+        height: 60px;
+        font-size: 30px;
+        font-family: Monda;
+        font-weight: bold;
+        color: #f3f7ff;
+        background-color: #012c7a;
+        border: none;
+    }
+    .cabHeader .userBlock .user {
+        width: 440px;
+    }
+    .rightBlock .cabHeader .userBlock .user .infoUser li:nth-child(3) {
+        display: none;
+    }
+    .content2 .referral2 {
+        margin-left: 6px;
+    }
+    .content2 .upline {
+        margin-left: 6px;
+    }
+    .content2 .invest {
+        margin-left: 6px;
+    }
+    .content2 .withdrawal {
+        margin-left: 6px;
+    }
+    .content2 h1 {
+        padding-left: 108px;
+    }
+
 }
 
 @media (max-width: 479px) {
@@ -281,8 +436,8 @@
         margin-left: 30px;
     }
     header .topLine .register {
-        margin-top: 110px;
-        right: 30px;
+        margin-top: 98px;
+        right: 54px;
     }
     .control ul {
         display: none !important;
@@ -292,8 +447,8 @@
         width: 250px;
         height: 35px;
         border: 1px solid #2f7bde;
-        margin-left: 40px;
-        margin-top: 20px;
+        margin-left: -12px;
+        margin-top: 131px;
         color: #ffffff;
     }
     header .selectControl option {
@@ -372,6 +527,64 @@
     footer .contact .rightFooter span {
         font-size: 14px;
     }
+    .rightBlock .control2 .contr2 select {
+        margin-left: 30px;
+        margin-bottom: 100px;
+    }
+    .rightBlock .naviSelect select {
+        left: 32px;
+        top: 226px;
+        width: 242px;
+    }
+    .cabHeader .userBlock .user {
+        width: 290px;
+    }
+    .rightBlock .cabHeader .userBlock .user .infoUser li:nth-child(2) {
+        display: none;
+    }
+    .rightBlock .cabHeader .fonUserBlock .userBlock {
+        padding-left: 38px;
+    }
+    .content2 h1 {
+        padding-left: 43px;
+    }
+    .content2 .referral2 {
+        width: 350px;
+        height: 205px;
+    }
+    .content2 .title {
+        margin-left: 15px;
+    }
+    .content2 .referral2 .inputBlock1 {
+        margin-left: 10px;
+    }
+    .content2 .referral2 input {
+        width: 330px;
+    }
+    .content2 .upline {
+        width: 350px;
+        height: 205px;
+    }
+    .upline .user {
+        margin-left: 45px;
+    }
+    .content2 .invest {
+        width: 350px;
+        height: 205px;
+    }
+    .rightBlock .content2 .text .summ span:nth-child(2) {
+        line-height: 40px;
+    }
+    .rightBlock .content2 .text .summ span:nth-child(1) {
+        line-height: 40px;
+    }
+    .content2 .text .summ {
+        margin-left: 25px;
+    }
+    .content2 .text .summ {
+        width: 240px;
+    }
+
 
 }
 

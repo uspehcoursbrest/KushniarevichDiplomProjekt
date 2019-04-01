@@ -126,13 +126,13 @@ header .backImg {
     background-position: center;
     background-repeat: no-repeat;
 }
-header .time {
+header .time1 {
     position: relative;
     width: 295px;
     height: 51px;
     background-color: #2f7bde;
 }
-header .time::before {
+header .time1::before {
     content: "";
     display: block;
     position: absolute;
@@ -144,7 +144,7 @@ header .time::before {
     border-top: 25px solid transparent;
     border-bottom: 26px solid transparent;
 }
-header .time::after {
+header .time1::after {
     content: "";
     display: block;
     position: absolute;
@@ -156,10 +156,10 @@ header .time::after {
     border-top: 25px solid transparent;
     border-bottom: 26px solid transparent;
 }
-header .time .icon-11 {
+header .time1 .icon-11 {
     margin-left: -3px;
 }
-header .time>span {
+header .time1>span {
     font-size: 35px;
     line-height: 50px;
     font-weight: bold;
@@ -167,21 +167,22 @@ header .time>span {
     margin-right: 30px;
 }
 
-header .time .icon-50 {
+header .time1 .icon-50 {
     position: absolute;
     z-index: 2;
     font-size: 58px;
+    line-height: 52px;
     color: #1d5cb8;
     left: -20px;
-    top: 1px;
+    top: 0px;
 
 }
-header .time [class*="icon-11"] {
+header .time1 [class*="icon-11"] {
     font-size: 22px;
     position: relative;
     z-index: 3;
 }
-header .time .date {
+header .time1 .date {
     display: inline-block;
 }
 header .date span:first-child {
@@ -199,7 +200,7 @@ header .date span:last-child {
 header .register {
     float: right;
 }
-header .time {
+header .time1 {
     float: right;
     margin-right: 70px;
 }
@@ -403,9 +404,10 @@ header .selectControl {
 .icon-50 {
     position: absolute;
     z-index: 1;
-    font-size: 75px;
+    font-size: 74px;
+    line-height: 65px;
     color: #e43981;
-    top: -5px;
+    top: 0px;
     right: -20px;
 }
 .icon-14 {
@@ -1280,7 +1282,12 @@ footer .control {
     margin-top: 30px;
 }
 /*ВТОРАЯ СТРАНИЦА ДИПЛОМНОГО ПРОЕКТА*/
-
+.rightBlock .control2 .contr2 {
+    display: none;
+}
+.rightBlock .control2 .naviSelect {
+    display: none;
+}
 .cabHeader .deposit .btnRed a {
     font-size: 16px;
     line-height: 65px;
