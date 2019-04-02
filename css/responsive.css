@@ -117,6 +117,12 @@
     .rightBlock .deposit {
         display: none;
     }
+    .rightBlock .cabHeader .upBlock .socBlock a .icon-50 {
+        margin-top: -22px;
+    }
+    .navigation .copyright {
+        padding-top: 1230px;
+    }
 }
 @media (max-width: 991px) {
     .container {
@@ -177,6 +183,7 @@
     .investPlan .plans li {
         padding-left: 64px;
     }
+
     .royalPlan .captionWhite {
         padding-left: 210px;
     }
@@ -213,6 +220,16 @@
     .videoPage .backImg {
         height: 1100px;
     }
+    .usersBlock .user {
+        float: none;
+        width: 100%;
+    }
+    .usersBlock .user:nth-child(1) {
+        padding-right: 0;
+    }
+    .usersBlock .user:nth-child(2) {
+        padding-left: 0;
+    }
     .statistics .statList {
         margin-left: 0;
     }
@@ -226,7 +243,7 @@
         display: none;
     }
     footer .contact a {
-        font-size: 25px;
+        font-size: 18px;
     }
     footer .contact .leftFooter span {
         font-size: 20px;
@@ -338,7 +355,10 @@
     }
     .usersBlock .user:nth-child(1) {
         width: 100%;
-        margin-left: 38px;
+        margin-left: 0;
+    }
+    .users .captionBlue {
+        font-size: 38px;
     }
     .usersBlock .user:nth-child(2) {
         float: none;
@@ -422,6 +442,9 @@
     }
     .content2 h1 {
         padding-left: 108px;
+    }
+    .rightBlock .control2 .naviSelect {
+        display: block;
     }
 
 }
