@@ -71,7 +71,7 @@
     }
 
     .investPlan .plans li {
-        padding-left: 85px;
+        padding-left: 70px;
     }
 
     .royalPlan .captionWhite {
@@ -79,7 +79,7 @@
     }
 
     .content .investPlan .royalPlan .backImg {
-        left: 864px;
+        display: none;
     }
 
     .royalPlan .profit div {
@@ -87,13 +87,16 @@
     }
 
     .royalPlan .profit {
-    padding-left: 40px;
+    padding-left: 5px;
     }
     .royalPlan .calculator {
         margin-left: -130px;
     }
     .royalPlan .summ {
-        margin-left: -120px;
+        display: none;
+    }
+    .videoPage .textFon.left {
+        display: none;
     }
     .videoPage .video {
         width: 900px;
@@ -174,6 +177,11 @@
     .aboutUs .right .text .text2 {
         margin-top: 10px;
     }
+    .aboutUs .infoCompany .tabs li.ui-tabs-active a,
+    .aboutUs .infoCompany .tabs li a:hover {
+        display: block;
+        width: 180px;
+    }
     .content .investPlan .backImg {
         width: 2853px;
     }
@@ -213,8 +221,21 @@
         line-height: 0;
         margin-left: 380px;
     }
+    .investPlan .calculator .valueRangeBlock {
+        display: none;
+    }
+    .investPlan .calculator .valueRangeBlock2 {
+        display: none;
+    }
+    .investPlan .calculator .valueRangeBlock3 {
+        display: none;
+    }
+    .royalPlan .summ {
+        margin-top: 50px;
+    }
     .videoPage .video {
-        width: 775px;
+        display: block;
+        width: 675px;
         height: 400px;
     }
     .videoPage .backImg {
@@ -287,7 +308,7 @@
     header .register {
         display: block;
         position: absolute;
-        right: -40px;
+        right: -38px;
     }
     header .control {
         display: none;
@@ -318,7 +339,8 @@
         width: 402px;
     }
     .content .home .infoCost {
-        margin-left: 30px;
+        margin-left: 35px;
+        margin-top: 55px;
     }
     .content .home .infoCost ul li:nth-child(3) {
         display: none;
@@ -340,18 +362,19 @@
     }
     .videoPage .video {
         width: 450px;
-        height: 270px;
+        height: 290px;
         margin-top: 70px;
     }
 
     .statList {
-        margin-top: 60px;
+        margin-top: 130px;
     }
     .videoPage .backImg {
         height: 640px;
+        top: -95px;
     }
     .statistics .statList1 li:nth-child(3) {
-        margin-left: -70px;
+        margin-left: -50px;
     }
     .usersBlock .user:nth-child(1) {
         width: 100%;
@@ -491,7 +514,7 @@
     .home .infoBlock p br {
         display: none;
     }
-    .home .infoCost {
+    .content .home .infoCost {
         display: none;
     }
     .aboutUs {
@@ -508,6 +531,9 @@
     .aboutUs .right .text {
         width: 300px;
         margin-left: 140px;
+    }
+    .aboutUs {
+        padding-top: 125px;
     }
     .aboutUs .right .captionBlue {
         font-size: 30px;
@@ -531,6 +557,15 @@
         width: 300px;
         height: 200px;
     }
+    .videoPage .backImg {
+        position: absolute;
+        top: -90px;
+    }
+    .content .news {
+        display: none;
+    }
+
+
     .partners .backImg {
         margin-left: -1311px;
     }

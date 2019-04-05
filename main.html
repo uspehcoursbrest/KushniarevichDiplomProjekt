@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -128,19 +134,69 @@
                 <h3>I-FOREX Group Limited</h3>
             </div>
             <div class="container">
-                <div class="infoCompany clear">
+                <div class="infoCompany clear" id="tabs">
                     <div class="left">
-                        <ul class="link">
-                            <li><a href="#">ABOUT COMPANY</a><br></li>
-                            <li><a href="#">OUR DOCUMENTS</a><br></li>
-                            <li><a href="#">OUR ADVANTAGES</a></li>
+                        <ul class="link tabs">
+                            <li><a href="#tabs-1">ABOUT COMPANY</a></li>
+                            <li><a href="#tabs-2">OUR DOCUMENTS</a></li>
+                            <li><a href="#tabs-3">OUR ADVANTAGES</a></li>
                         </ul>
                         <div class="btnBlue">
                             <a href="#">More About Us</a>
                         </div>
                     </div>
                     <div class="right">
-                        <div class="text">
+                        <div class="text" id="tabs-1">
+                            <h1 class="captionBlue">About I-FOREX Group Limited</h1>
+                            <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut eu aliquet dui
+                                orci
+                                varius natoque
+                                penatibus.</p>
+                            <p class="text2">Et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                                consectetur
+                                mi augue,
+                                vulputate cursus tellus vehicula eget.</p>
+                            <p class="text2">Etiam et dui dapibus, rhoncus mi ut, volutpat libero. Sed at purus in mi
+                                congue
+                                tristique sed
+                                eget nunc. Phasellus nec augue at nibh ultrices semper. Pellentesque feugiat diam dolor,
+                                pulvinar gravida diam convallis scelerisque. Aenean sollicitudin aliquet massa, at
+                                dignissim
+                                mi sagittis in. Sed aliquet sit amet quam eget faucibus. Donec porta placerat posuere.
+                                Etiam
+                                et dui dapibus, rhoncus mi ut, volutpat libero. Sed at purus in mi congue tristique sed
+                                eget
+                                nunc. Phasellus nec augue at nibh ultrices semper. Pellentesque feugiat diam dolor,
+                                pulvinar
+                                gravida diam convallis scelerisque. Aenean sollicitudin aliquet massa, at dignissim mi
+                                sagittis in. </p>
+                        </div>
+                        <div class="text" id="tabs-2">
+                            <h1 class="captionBlue">About I-FOREX Group Limited</h1>
+                            <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut eu aliquet dui
+                                orci
+                                varius natoque
+                                penatibus.</p>
+                            <p class="text2">Et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                                consectetur
+                                mi augue,
+                                vulputate cursus tellus vehicula eget.</p>
+                            <p class="text2">Etiam et dui dapibus, rhoncus mi ut, volutpat libero. Sed at purus in mi
+                                congue
+                                tristique sed
+                                eget nunc. Phasellus nec augue at nibh ultrices semper. Pellentesque feugiat diam dolor,
+                                pulvinar gravida diam convallis scelerisque. Aenean sollicitudin aliquet massa, at
+                                dignissim
+                                mi sagittis in. Sed aliquet sit amet quam eget faucibus. Donec porta placerat posuere.
+                                Etiam
+                                et dui dapibus, rhoncus mi ut, volutpat libero. Sed at purus in mi congue tristique sed
+                                eget
+                                nunc. Phasellus nec augue at nibh ultrices semper. Pellentesque feugiat diam dolor,
+                                pulvinar
+                                gravida diam convallis scelerisque. Aenean sollicitudin aliquet massa, at dignissim mi
+                                sagittis in. </p>
+                        </div>
+                        <div class="text" id="tabs-3">
                             <h1 class="captionBlue">About I-FOREX Group Limited</h1>
                             <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut eu aliquet dui
                                 orci
@@ -169,13 +225,13 @@
                 </div>
             </div>
         </div>
-        <div class="investPlan">
+        <div class="investPlan" id="planIn">
             <div class="backImg" style="background-image: url(img/png/calculator_back.png)"></div>
             <div class="container">
                 <div class="plans">
-                    <ul class="clear">
+                    <ul class="clear planIn">
                         <li>
-                            <a href="#">
+                            <a href="#planIn-1">
                                     <span class="icon-5">
                                         <span class="path1"></span><span class="path2"></span>
                                     </span>
@@ -187,7 +243,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#planIn-2">
                                     <span class="icon-7">
                                         <span class="path1"></span><span class="path2"></span>
                                     </span>
@@ -199,7 +255,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#planIn-3">
                                     <span class="icon-6">
                                         <span class="path1"></span><span class="path2"></span>
                                     </span>
@@ -212,7 +268,66 @@
                         </li>
                     </ul>
                 </div>
-                <div class="royalPlan">
+                <div class="royalPlan" id="planIn-1">
+                <div class="title">
+                    <h1 class="captionWhite">ROYAL PLAN</h1>
+                </div>
+                <div class="backImg" style="background-image: url(img/png/fonProfit.png)"></div>
+                <div class="profit">
+                    <div class="part1">
+                        <span class="a1">DEPOSIT: <span class="a2">INCLUDED</span></span>
+                        <span class="a1">ACCRUALS: <span class="a2">7 DAYS OF WEEK</span></span>
+                        <span class="a1">WITHDRAWALS:<span class="a2">INSTANT</span></span>
+                    </div>
+                    <div class="part2">
+                        <span class="a3">MINIMAL — MAXIMAL DEPOSIT:</span>
+                        <span class="a4">1,501 $ — 25,000 $</span>
+                        <span class="a3">MIN. CASHOUT:</span>
+                        <span>1 $ <span class="a5">(PM, PAYEER)</span>   3 $ <span
+                                class="a5">(BTC, ETH, LTC)</span>
+                            </span>
+                    </div>
+                    <div class="part3">
+                        <span class="a3">DAILY PROFIT:</span>
+                        <span class="a6">8%</span>
+                    </div>
+                    <div class="part4">
+                        <span class="a3">TOTAL PROFIT:</span>
+                        <span class="a7">160%</span>
+                    </div>
+                </div>
+                <div class="calculator">
+                    <form>
+                        <div class="calc">
+                            <div class="inputBlock2">
+                                <label for="enterAmout">Enter Amout</label>
+                                <input type="text" name="enterAmout" id="enterAmout">
+                                <span class="icon">$</span>
+                            </div>
+                            <div class="selectBlock">
+                                <label for="rightBlock">SELECT PLAN:</label>
+                                <select name="rightBlock" id="rightBlock">
+                                    <option value="8% Daily for 20 day">7% Daily for 20 day</option>
+                                    <option value="8% Daily for 20 day">8% Daily for 20 day</option>
+                                    <option value="8% Daily for 12 day">10% Daily for 12 day</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="valueRangeBlock">
+                            <label for="valueRange">Your profit:</label>
+                            <input type="text" id="valueRange">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="summ">
+                    <span>4235.00$</span>
+                </div>
+                <div class="btnRed">
+                    <a href="#">INVEST NOW<span class="icon-14"></span><span class="icon-50"></span></a>
+                </div>
+            </div>
+                <div class="royalPlan" id="planIn-2">
                     <div class="title">
                         <h1 class="captionWhite">ROYAL PLAN</h1>
                     </div>
@@ -244,13 +359,72 @@
                         <form>
                             <div class="calc">
                                 <div class="inputBlock2">
-                                    <label for="enterAmout">Enter Amout</label>
-                                    <input type="text" name="enterAmout" id="enterAmout">
+                                    <label for="enterAmout2">Enter Amout</label>
+                                    <input type="text" name="enterAmout2" id="enterAmout2">
                                     <span class="icon">$</span>
                                 </div>
                                 <div class="selectBlock">
-                                    <label for="rightBlock">SELECT PLAN:</label>
-                                    <select name="rightBlock" id="rightBlock">
+                                    <label for="rightBlock2">SELECT PLAN:</label>
+                                    <select name="rightBlock" id="rightBlock2">
+                                        <option value="8% Daily for 20 day">7% Daily for 20 day</option>
+                                        <option value="8% Daily for 20 day">8% Daily for 20 day</option>
+                                        <option value="8% Daily for 12 day">10% Daily for 12 day</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="valueRangeBlock2">
+                                <input type="text" class="valueRange2" id="valueRange2">
+                                <label for="valueRange2">YOUR PROFIT:</label>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="summ">
+                        <span>4235.00$</span>
+                    </div>
+                    <div class="btnRed">
+                        <a href="#">INVEST NOW<span class="icon-14"></span><span class="icon-50"></span></a>
+                    </div>
+                </div>
+                <div class="royalPlan" id="planIn-3">
+                    <div class="title">
+                        <h1 class="captionWhite">ROYAL PLAN</h1>
+                    </div>
+                    <div class="backImg" style="background-image: url(img/png/fonProfit.png)"></div>
+                    <div class="profit">
+                        <div class="part1">
+                            <span class="a1">DEPOSIT: <span class="a2">INCLUDED</span></span>
+                            <span class="a1">ACCRUALS: <span class="a2">7 DAYS OF WEEK</span></span>
+                            <span class="a1">WITHDRAWALS:<span class="a2">INSTANT</span></span>
+                        </div>
+                        <div class="part2">
+                            <span class="a3">MINIMAL — MAXIMAL DEPOSIT:</span>
+                            <span class="a4">1,501 $ — 25,000 $</span>
+                            <span class="a3">MIN. CASHOUT:</span>
+                            <span>1 $ <span class="a5">(PM, PAYEER)</span>   3 $ <span
+                                    class="a5">(BTC, ETH, LTC)</span>
+                            </span>
+                        </div>
+                        <div class="part3">
+                            <span class="a3">DAILY PROFIT:</span>
+                            <span class="a6">8%</span>
+                        </div>
+                        <div class="part4">
+                            <span class="a3">TOTAL PROFIT:</span>
+                            <span class="a7">160%</span>
+                        </div>
+                    </div>
+                    <div class="calculator">
+                        <form>
+                            <div class="calc">
+                                <div class="inputBlock2">
+                                    <label for="enterAmout3">Enter Amout</label>
+                                    <input type="text" name="enterAmout" id="enterAmout3">
+                                    <span class="icon">$</span>
+                                </div>
+                                <div class="selectBlock">
+                                    <label for="rightBlock3">SELECT PLAN:</label>
+                                    <select name="rightBlock" id="rightBlock3">
                                         <option value="8% Daily for 20 day">7% Daily for 20 day</option>
                                         <option value="8% Daily for 20 day">8% Daily for 20 day</option>
                                         <option value="8% Daily for 12 day">10% Daily for 12 day</option>
@@ -258,8 +432,8 @@
                                 </div>
                             </div>
                             <div class="valueRangeBlock">
-                                <label for="valueRange">Your profit:</label>
-                                <input type="text" id="valueRange">
+                                <label for="valueRange3">Your profit:</label>
+                                <input type="text" id="valueRange3">
                             </div>
                         </form>
 
@@ -462,36 +636,33 @@
             </div>
         </div>
         <div class="news">
-            <div class="backImg" style="background-image: url(img/jpg/FonNews.jpg)"></div>
+            <div class="backImg" style="background-image: url(img/png/fonNews.png)"></div>
             <div class="container">
                 <div class="title">
                     <h1 class="captionBlue">Latest news</h1>
                 </div>
-                <div class="newsBlock">
+                <div class="newsBlock slider owl-carousel">
                     <div class="news">
-                        <h3><a href="#">Hourly MAs adopting bull bias, focus on dollar index</a></h3>
+                        <h3><a href="#">Hourly MAs adopting<br> bull bias, focus on<br> dollar index</a></h3>
                         <span class="icon-23"></span><span>sep-05-2018    15:30</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu aliquet dui. Orci varius
-                            natoque
-                            penatibus et magnis dis parturient montes.</p>
-                        <div class="btnBlue"><a href="#" class="btnBlue">Read More</a></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Ut eu aliquet dui. Orci<br> varius
+                            natoque penatibus et magnis dis<br> parturient montes.</p>
+                        <a href="#" class="btnBlue">Read More</a>
                     </div>
                     <div class="news">
-                        <h3><a href="#">WTI breaks higher to test $ 69 ahead of EIA data</a></h3>
+                        <h3><a href="#">WTI breaks higher to<br> test $ 69 ahead of<br> EIA data</a></h3>
                         <span class="icon-23"></span>
                         <span>sep-05-2018    15:30</span>
-                        <p>Aenean sollicitudin aliquet massa, at dignissim mi sagittis in. Sed aliquet sit amet quam
-                            eget
-                            faucibus. Donec porta placerat posuere.</p>
-                        <div class="btnBlue"><a href="#" class="btnBlue">Read More</a></div>
+                        <p>Aenean sollicitudin aliquet massa, at<br> dignissim mi sagittis in. Sed aliquet sit<br> amet quam
+                            eget faucibus. Donec porta<br> placerat posuere.</p>
+                        <a href="#" class="btnBlue">Read More</a>
                     </div>
                     <div class="news">
-                        <h3><a href="#">Global equities were biased lower with the USD mixed - ANZ</a></h3>
+                        <h3><a href="#">Global equities were<br> biased lower with the<br> USD mixed - ANZ</a></h3>
                         <span class="icon-23"></span><span>sep-05-2018    15:30</span>
-                        <p>Pellentesque feugiat diam dolor, pulvinar gravida diam convallis scelerisque. Aenean
-                            sollicitudin
-                            aliquet massa, at dignissim mi sagittis in. </p>
-                        <div class="btnBlue"><a href="#" class="btnBlue">Read More</a></div>
+                        <p>Pellentesque feugiat diam dolor, pulvinar<br> gravida diam convallis scelerisque<br>. Aenean
+                            sollicitudin aliquet massa, at<br> dignissim mi sagittis in. </p>
+                        <a href="#" class="btnBlue">Read More</a>
                     </div>
                 </div>
             </div>

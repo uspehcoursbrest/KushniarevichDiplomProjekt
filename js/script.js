@@ -25,4 +25,48 @@ window.onload = function () {
     }
     clockStart()
 
+    $("#tabs").tabs();
+
+    $("#planIn").tabs();
+
+    $('#valueRange2').ionRangeSlider({
+        grid: true,
+        min: 50,
+        max: 100000,
+        from: 500,
+        step: 100,
+        grid_num: 16,
+        grid_matgin: false,
+        onStart: function (data) {
+            $('#enterAmout2').val(data.from);
+        },
+        onChange: function (data) {
+            $('#enterAmout2').val(data.from);
+        }
+    });
+    var sumRange = $('#valueRange2').data('ionRangeSlider'),
+        min = 50,
+        max = 100000;
+    $('#enterAmout2').on('change keyup', function () {
+        var val = $(this).prop('value');
+        if (val < min) {
+            val = min;
+        } else if (val > max) {
+            val = max;
+        }
+        sumRange.update({
+            from:val
+        })
+    })
+
+    $(".slider").owlCarousel({
+        margin: 10,
+        dots: false,
+        nav: true,
+        navText: ["<", ">"],
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 10000
+    })
+
 }
